@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1188" viewBox="-700 -1010 2857 2020">
+<rect x="-700" y="-1010" width="2857" height="2020" fill="#ffffff"/>
+<rect x="0" y="-240" width="144" height="152" rx="16" fill="#e8f5ee" stroke="#1a7a4c" stroke-width="2"/>
+<rect x="0" y="88" width="144" height="152" rx="16" fill="#e8f5ee" stroke="#1a7a4c" stroke-width="2"/>
+<line x1="0.0" y1="-88.0" x2="0.0" y2="88.0" stroke="#1a7a4c" stroke-width="1" stroke-dasharray="3 4"/>
+<line x1="144.0" y1="-88.0" x2="144.0" y2="88.0" stroke="#1a7a4c" stroke-width="1" stroke-dasharray="3 4"/>
+<text x="72.0" y="-258.0" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#1a7a4c" >Mag nozzle</text>
+<polyline points="230.0,-790.0 230.0,-568.0 230.0,-88.0 370.0,-141.7 370.0,-621.7 252.0,-568.0 252.0,-88.0 392.0,-141.7 392.0,-621.7 272.0,-568.0 272.0,-88.0 412.0,-141.7 412.0,-621.7 290.0,-568.0 290.0,-88.0 430.0,-141.7 430.0,-621.7 306.0,-568.0 306.0,-88.0 446.0,-141.7 446.0,-621.7 320.0,-568.0 320.0,-88.0 460.0,-141.7 460.0,-621.7 332.0,-568.0 332.0,-88.0 472.0,-141.7 472.0,-621.7 343.0,-568.0 343.0,-88.0 483.0,-141.7 483.0,-621.7 353.0,-568.0 353.0,-88.0 493.0,-141.7 493.0,-621.7 362.0,-568.0 362.0,-88.0 502.0,-141.7 502.0,-621.7 502.0,-790.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<line x1="230.0" y1="-790.0" x2="230.0" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="502.0" y1="-790.0" x2="502.0" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="230.0" y1="-830.0" x2="361.0" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="371.0" y1="-830.0" x2="502.0" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="361.0" y1="-844.0" x2="361.0" y2="-816.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="371.0" y1="-844.0" x2="371.0" y2="-816.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="346.0" y1="-810.0" x2="382.0" y2="-846.0" stroke="#2a6fd6" stroke-width="2"/>
+<polygon points="386.0,-850 375.0,-847 383.0,-839" fill="#2a6fd6"/>
+<text x="392.0" y="-854.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#2a6fd6" >C_trim</text>
+<line x1="230.0" y1="-790.0" x2="361.0" y2="-790.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="371.0" y1="-790.0" x2="502.0" y2="-790.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="361.0" y1="-804.0" x2="361.0" y2="-776.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="371.0" y1="-804.0" x2="371.0" y2="-776.0" stroke="#2a6fd6" stroke-width="3"/>
+<text x="380.0" y="-762.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#2a6fd6" >C</text>
+<circle cx="230.0" cy="-790.0" r="3.5" fill="#1a1f26"/>
+<circle cx="230.0" cy="-830.0" r="3.5" fill="#1a1f26"/>
+<circle cx="502.0" cy="-790.0" r="3.5" fill="#1a1f26"/>
+<circle cx="502.0" cy="-830.0" r="3.5" fill="#1a1f26"/>
+<line x1="130.0" y1="-830.0" x2="80.0" y2="-880.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="98.6,-861.4 117.7,-855.0 105.0,-842.3" fill="#1a1f26"/>
+<line x1="105.0" y1="-867.7" x2="92.3" y2="-855.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="30.0" y1="-830.0" x2="80.0" y2="-880.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="61.4,-861.4 55.0,-842.3 42.3,-855.0" fill="#1a1f26"/>
+<line x1="67.7" y1="-855.0" x2="55.0" y2="-867.7" stroke="#1a1f26" stroke-width="2"/>
+<line x1="80.0" y1="-780.0" x2="130.0" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="111.4,-811.4 105.0,-792.3 92.3,-805.0" fill="#1a1f26"/>
+<line x1="117.7" y1="-805.0" x2="105.0" y2="-817.7" stroke="#1a1f26" stroke-width="2"/>
+<line x1="80.0" y1="-780.0" x2="30.0" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="48.6,-811.4 67.7,-805.0 55.0,-792.3" fill="#1a1f26"/>
+<line x1="55.0" y1="-817.7" x2="42.3" y2="-805.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="230.0" y1="-830.0" x2="130.0" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<polyline points="502.0,-830.0 502.0,-905.0 0.0,-905.0 0.0,-830.0 30.0,-830.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<circle cx="80.0" cy="-880.0" r="3.5" fill="#1a1f26"/>
+<circle cx="80.0" cy="-780.0" r="3.5" fill="#1a1f26"/>
+<circle cx="130.0" cy="-830.0" r="3.5" fill="#1a1f26"/>
+<circle cx="30.0" cy="-830.0" r="3.5" fill="#1a1f26"/>
+<polyline points="80.0,-880.0 80.0,-930.0 -120.0,-930.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<polyline points="80.0,-780.0 80.0,-735.0 -120.0,-735.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<line x1="-60.0" y1="-930.0" x2="-60.0" y2="-836.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="-60.0" y1="-824.0" x2="-60.0" y2="-735.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="-76.0" y1="-836.0" x2="-44.0" y2="-836.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="-76.0" y1="-824.0" x2="-44.0" y2="-824.0" stroke="#2a6fd6" stroke-width="3"/>
+<circle cx="-60.0" cy="-930.0" r="3.5" fill="#1a1f26"/>
+<circle cx="-60.0" cy="-735.0" r="3.5" fill="#1a1f26"/>
+<text x="68.0" y="-940.0" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#1a1f26" >+</text>
+<text x="68.0" y="-711.0" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#1a1f26" >−</text>
+<rect x="-310" y="-955" width="190" height="245" fill="#f4f6f8" stroke="#1a1f26" stroke-width="2.5"/>
+<text x="-215.0" y="-824.5" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#1a1f26" >SMPS - MPPT</text>
+<line x1="-310.0" y1="-790.0" x2="-390.0" y2="-790.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="-310.0" y1="-870.0" x2="-390.0" y2="-870.0" stroke="#1a1f26" stroke-width="2"/>
+<rect x="-540" y="-910" width="150" height="160" fill="#fff8e8" stroke="#1a1f26" stroke-width="2.5"/>
+<text x="-465.0" y="-822.0" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#1a1f26" >Load</text>
+<text x="224.0" y="-770.0" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="normal" fill="#1a1f26" >in</text>
+<text x="508.0" y="-770.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="normal" fill="#1a1f26" >out</text>
+<polyline points="562.0,-790.0 562.0,-695.3 562.0,-215.3 682.4,-261.4 682.4,-741.4 584.0,-695.3 584.0,-215.3 704.4,-261.4 704.4,-741.4 604.0,-695.3 604.0,-215.3 724.4,-261.4 724.4,-741.4 622.0,-695.3 622.0,-215.3 742.4,-261.4 742.4,-741.4 638.0,-695.3 638.0,-215.3 758.4,-261.4 758.4,-741.4 652.0,-695.3 652.0,-215.3 772.4,-261.4 772.4,-741.4 664.0,-695.3 664.0,-215.3 784.4,-261.4 784.4,-741.4 675.0,-695.3 675.0,-215.3 795.4,-261.4 795.4,-741.4 685.0,-695.3 685.0,-215.3 805.4,-261.4 805.4,-741.4 694.0,-695.3 694.0,-215.3 814.4,-261.4 814.4,-741.4 814.4,-790.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<line x1="562.0" y1="-790.0" x2="562.0" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="814.4" y1="-790.0" x2="814.4" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="562.0" y1="-830.0" x2="683.2" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="693.2" y1="-830.0" x2="814.4" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="683.2" y1="-844.0" x2="683.2" y2="-816.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="693.2" y1="-844.0" x2="693.2" y2="-816.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="668.2" y1="-810.0" x2="704.2" y2="-846.0" stroke="#2a6fd6" stroke-width="2"/>
+<polygon points="708.2,-850 697.2,-847 705.2,-839" fill="#2a6fd6"/>
+<text x="714.2" y="-854.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#2a6fd6" >C_trim</text>
+<line x1="562.0" y1="-790.0" x2="683.2" y2="-790.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="693.2" y1="-790.0" x2="814.4" y2="-790.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="683.2" y1="-804.0" x2="683.2" y2="-776.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="693.2" y1="-804.0" x2="693.2" y2="-776.0" stroke="#2a6fd6" stroke-width="3"/>
+<text x="702.2" y="-762.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#2a6fd6" >C</text>
+<circle cx="562.0" cy="-790.0" r="3.5" fill="#1a1f26"/>
+<circle cx="562.0" cy="-830.0" r="3.5" fill="#1a1f26"/>
+<circle cx="814.4" cy="-790.0" r="3.5" fill="#1a1f26"/>
+<circle cx="814.4" cy="-830.0" r="3.5" fill="#1a1f26"/>
+<line x1="914.4" y1="-830.0" x2="964.4" y2="-880.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="945.8,-861.4 939.4,-842.3 926.7,-855.0" fill="#1a1f26"/>
+<line x1="952.1" y1="-855.0" x2="939.4" y2="-867.7" stroke="#1a1f26" stroke-width="2"/>
+<line x1="1014.4" y1="-830.0" x2="964.4" y2="-880.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="983.0,-861.4 1002.1,-855.0 989.4,-842.3" fill="#1a1f26"/>
+<line x1="989.4" y1="-867.7" x2="976.7" y2="-855.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="964.4" y1="-780.0" x2="914.4" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="933.0,-811.4 952.1,-805.0 939.4,-792.3" fill="#1a1f26"/>
+<line x1="939.4" y1="-817.7" x2="926.7" y2="-805.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="964.4" y1="-780.0" x2="1014.4" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="995.8,-811.4 989.4,-792.3 976.7,-805.0" fill="#1a1f26"/>
+<line x1="1002.1" y1="-805.0" x2="989.4" y2="-817.7" stroke="#1a1f26" stroke-width="2"/>
+<line x1="814.4" y1="-830.0" x2="914.4" y2="-830.0" stroke="#1a1f26" stroke-width="2"/>
+<polyline points="562.0,-830.0 562.0,-905.0 1044.4,-905.0 1044.4,-830.0 1014.4,-830.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<circle cx="964.4" cy="-880.0" r="3.5" fill="#1a1f26"/>
+<circle cx="964.4" cy="-780.0" r="3.5" fill="#1a1f26"/>
+<circle cx="914.4" cy="-830.0" r="3.5" fill="#1a1f26"/>
+<circle cx="1014.4" cy="-830.0" r="3.5" fill="#1a1f26"/>
+<polyline points="964.4,-880.0 964.4,-930.0 1164.4,-930.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<polyline points="964.4,-780.0 964.4,-735.0 1164.4,-735.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<line x1="1104.4" y1="-930.0" x2="1104.4" y2="-836.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="1104.4" y1="-824.0" x2="1104.4" y2="-735.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="1088.4" y1="-836.0" x2="1120.4" y2="-836.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="1088.4" y1="-824.0" x2="1120.4" y2="-824.0" stroke="#2a6fd6" stroke-width="3"/>
+<circle cx="1104.4" cy="-930.0" r="3.5" fill="#1a1f26"/>
+<circle cx="1104.4" cy="-735.0" r="3.5" fill="#1a1f26"/>
+<text x="976.4" y="-940.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#1a1f26" >+</text>
+<text x="976.4" y="-711.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#1a1f26" >−</text>
+<rect x="1164.4" y="-955" width="190.0" height="245" fill="#f4f6f8" stroke="#1a1f26" stroke-width="2.5"/>
+<text x="1259.4" y="-824.5" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#1a1f26" >SMPS - MPPT</text>
+<line x1="1354.4" y1="-790.0" x2="1434.4" y2="-790.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="1354.4" y1="-870.0" x2="1434.4" y2="-870.0" stroke="#1a1f26" stroke-width="2"/>
+<rect x="1434.4" y="-910" width="150.0" height="160" fill="#fff8e8" stroke="#1a1f26" stroke-width="2.5"/>
+<text x="1509.4" y="-822.0" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#1a1f26" >Load</text>
+<text x="556.0" y="-770.0" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="normal" fill="#1a1f26" >in</text>
+<text x="820.4" y="-770.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="normal" fill="#1a1f26" >out</text>
+<polyline points="230.0,790.0 230.0,568.0 230.0,88.0 370.0,141.7 370.0,621.7 252.0,568.0 252.0,88.0 392.0,141.7 392.0,621.7 272.0,568.0 272.0,88.0 412.0,141.7 412.0,621.7 290.0,568.0 290.0,88.0 430.0,141.7 430.0,621.7 306.0,568.0 306.0,88.0 446.0,141.7 446.0,621.7 320.0,568.0 320.0,88.0 460.0,141.7 460.0,621.7 332.0,568.0 332.0,88.0 472.0,141.7 472.0,621.7 343.0,568.0 343.0,88.0 483.0,141.7 483.0,621.7 353.0,568.0 353.0,88.0 493.0,141.7 493.0,621.7 362.0,568.0 362.0,88.0 502.0,141.7 502.0,621.7 502.0,790.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<line x1="230.0" y1="790.0" x2="230.0" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="502.0" y1="790.0" x2="502.0" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="230.0" y1="830.0" x2="361.0" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="371.0" y1="830.0" x2="502.0" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="361.0" y1="816.0" x2="361.0" y2="844.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="371.0" y1="816.0" x2="371.0" y2="844.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="346.0" y1="850.0" x2="382.0" y2="814.0" stroke="#2a6fd6" stroke-width="2"/>
+<polygon points="386.0,810 375.0,813 383.0,821" fill="#2a6fd6"/>
+<text x="392.0" y="860.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#2a6fd6" >C_trim</text>
+<line x1="230.0" y1="790.0" x2="361.0" y2="790.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="371.0" y1="790.0" x2="502.0" y2="790.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="361.0" y1="776.0" x2="361.0" y2="804.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="371.0" y1="776.0" x2="371.0" y2="804.0" stroke="#2a6fd6" stroke-width="3"/>
+<text x="380.0" y="768.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#2a6fd6" >C</text>
+<circle cx="230.0" cy="790.0" r="3.5" fill="#1a1f26"/>
+<circle cx="230.0" cy="830.0" r="3.5" fill="#1a1f26"/>
+<circle cx="502.0" cy="790.0" r="3.5" fill="#1a1f26"/>
+<circle cx="502.0" cy="830.0" r="3.5" fill="#1a1f26"/>
+<line x1="130.0" y1="830.0" x2="80.0" y2="880.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="98.6,861.4 105.0,842.3 117.7,855.0" fill="#1a1f26"/>
+<line x1="92.3" y1="855.0" x2="105.0" y2="867.7" stroke="#1a1f26" stroke-width="2"/>
+<line x1="30.0" y1="830.0" x2="80.0" y2="880.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="61.4,861.4 42.3,855.0 55.0,842.3" fill="#1a1f26"/>
+<line x1="55.0" y1="867.7" x2="67.7" y2="855.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="80.0" y1="780.0" x2="130.0" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="111.4,811.4 92.3,805.0 105.0,792.3" fill="#1a1f26"/>
+<line x1="105.0" y1="817.7" x2="117.7" y2="805.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="80.0" y1="780.0" x2="30.0" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="48.6,811.4 55.0,792.3 67.7,805.0" fill="#1a1f26"/>
+<line x1="42.3" y1="805.0" x2="55.0" y2="817.7" stroke="#1a1f26" stroke-width="2"/>
+<line x1="230.0" y1="830.0" x2="130.0" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<polyline points="502.0,830.0 502.0,905.0 0.0,905.0 0.0,830.0 30.0,830.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<circle cx="80.0" cy="880.0" r="3.5" fill="#1a1f26"/>
+<circle cx="80.0" cy="780.0" r="3.5" fill="#1a1f26"/>
+<circle cx="130.0" cy="830.0" r="3.5" fill="#1a1f26"/>
+<circle cx="30.0" cy="830.0" r="3.5" fill="#1a1f26"/>
+<polyline points="80.0,880.0 80.0,930.0 -120.0,930.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<polyline points="80.0,780.0 80.0,735.0 -120.0,735.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<line x1="-60.0" y1="930.0" x2="-60.0" y2="836.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="-60.0" y1="824.0" x2="-60.0" y2="735.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="-76.0" y1="824.0" x2="-44.0" y2="824.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="-76.0" y1="836.0" x2="-44.0" y2="836.0" stroke="#2a6fd6" stroke-width="3"/>
+<circle cx="-60.0" cy="930.0" r="3.5" fill="#1a1f26"/>
+<circle cx="-60.0" cy="735.0" r="3.5" fill="#1a1f26"/>
+<text x="68.0" y="952.0" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#1a1f26" >+</text>
+<text x="68.0" y="723.0" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#1a1f26" >−</text>
+<rect x="-310" y="710" width="190" height="245" fill="#f4f6f8" stroke="#1a1f26" stroke-width="2.5"/>
+<text x="-215.0" y="840.5" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#1a1f26" >SMPS - MPPT</text>
+<line x1="-310.0" y1="790.0" x2="-390.0" y2="790.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="-310.0" y1="870.0" x2="-390.0" y2="870.0" stroke="#1a1f26" stroke-width="2"/>
+<rect x="-540" y="750" width="150" height="160" fill="#fff8e8" stroke="#1a1f26" stroke-width="2.5"/>
+<text x="-465.0" y="838.0" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#1a1f26" >Load</text>
+<text x="224.0" y="784.0" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="normal" fill="#1a1f26" >in</text>
+<text x="508.0" y="784.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="normal" fill="#1a1f26" >out</text>
+<polyline points="562.0,790.0 562.0,695.3 562.0,215.3 682.4,261.4 682.4,741.4 584.0,695.3 584.0,215.3 704.4,261.4 704.4,741.4 604.0,695.3 604.0,215.3 724.4,261.4 724.4,741.4 622.0,695.3 622.0,215.3 742.4,261.4 742.4,741.4 638.0,695.3 638.0,215.3 758.4,261.4 758.4,741.4 652.0,695.3 652.0,215.3 772.4,261.4 772.4,741.4 664.0,695.3 664.0,215.3 784.4,261.4 784.4,741.4 675.0,695.3 675.0,215.3 795.4,261.4 795.4,741.4 685.0,695.3 685.0,215.3 805.4,261.4 805.4,741.4 694.0,695.3 694.0,215.3 814.4,261.4 814.4,741.4 814.4,790.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<line x1="562.0" y1="790.0" x2="562.0" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="814.4" y1="790.0" x2="814.4" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="562.0" y1="830.0" x2="683.2" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="693.2" y1="830.0" x2="814.4" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="683.2" y1="816.0" x2="683.2" y2="844.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="693.2" y1="816.0" x2="693.2" y2="844.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="668.2" y1="850.0" x2="704.2" y2="814.0" stroke="#2a6fd6" stroke-width="2"/>
+<polygon points="708.2,810 697.2,813 705.2,821" fill="#2a6fd6"/>
+<text x="714.2" y="860.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="16" font-weight="normal" fill="#2a6fd6" >C_trim</text>
+<line x1="562.0" y1="790.0" x2="683.2" y2="790.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="693.2" y1="790.0" x2="814.4" y2="790.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="683.2" y1="776.0" x2="683.2" y2="804.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="693.2" y1="776.0" x2="693.2" y2="804.0" stroke="#2a6fd6" stroke-width="3"/>
+<text x="702.2" y="768.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#2a6fd6" >C</text>
+<circle cx="562.0" cy="790.0" r="3.5" fill="#1a1f26"/>
+<circle cx="562.0" cy="830.0" r="3.5" fill="#1a1f26"/>
+<circle cx="814.4" cy="790.0" r="3.5" fill="#1a1f26"/>
+<circle cx="814.4" cy="830.0" r="3.5" fill="#1a1f26"/>
+<line x1="914.4" y1="830.0" x2="964.4" y2="880.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="945.8,861.4 926.7,855.0 939.4,842.3" fill="#1a1f26"/>
+<line x1="939.4" y1="867.7" x2="952.1" y2="855.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="1014.4" y1="830.0" x2="964.4" y2="880.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="983.0,861.4 989.4,842.3 1002.1,855.0" fill="#1a1f26"/>
+<line x1="976.7" y1="855.0" x2="989.4" y2="867.7" stroke="#1a1f26" stroke-width="2"/>
+<line x1="964.4" y1="780.0" x2="914.4" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="933.0,811.4 939.4,792.3 952.1,805.0" fill="#1a1f26"/>
+<line x1="926.7" y1="805.0" x2="939.4" y2="817.7" stroke="#1a1f26" stroke-width="2"/>
+<line x1="964.4" y1="780.0" x2="1014.4" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<polygon points="995.8,811.4 976.7,805.0 989.4,792.3" fill="#1a1f26"/>
+<line x1="989.4" y1="817.7" x2="1002.1" y2="805.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="814.4" y1="830.0" x2="914.4" y2="830.0" stroke="#1a1f26" stroke-width="2"/>
+<polyline points="562.0,830.0 562.0,905.0 1044.4,905.0 1044.4,830.0 1014.4,830.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<circle cx="964.4" cy="880.0" r="3.5" fill="#1a1f26"/>
+<circle cx="964.4" cy="780.0" r="3.5" fill="#1a1f26"/>
+<circle cx="914.4" cy="830.0" r="3.5" fill="#1a1f26"/>
+<circle cx="1014.4" cy="830.0" r="3.5" fill="#1a1f26"/>
+<polyline points="964.4,880.0 964.4,930.0 1164.4,930.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<polyline points="964.4,780.0 964.4,735.0 1164.4,735.0" fill="none" stroke-linejoin="round" stroke="#1a1f26" stroke-width="2"/>
+<line x1="1104.4" y1="930.0" x2="1104.4" y2="836.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="1104.4" y1="824.0" x2="1104.4" y2="735.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="1088.4" y1="824.0" x2="1120.4" y2="824.0" stroke="#2a6fd6" stroke-width="3"/>
+<line x1="1088.4" y1="836.0" x2="1120.4" y2="836.0" stroke="#2a6fd6" stroke-width="3"/>
+<circle cx="1104.4" cy="930.0" r="3.5" fill="#1a1f26"/>
+<circle cx="1104.4" cy="735.0" r="3.5" fill="#1a1f26"/>
+<text x="976.4" y="952.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#1a1f26" >+</text>
+<text x="976.4" y="723.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#1a1f26" >−</text>
+<rect x="1164.4" y="710" width="190.0" height="245" fill="#f4f6f8" stroke="#1a1f26" stroke-width="2.5"/>
+<text x="1259.4" y="840.5" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#1a1f26" >SMPS - MPPT</text>
+<line x1="1354.4" y1="790.0" x2="1434.4" y2="790.0" stroke="#1a1f26" stroke-width="2"/>
+<line x1="1354.4" y1="870.0" x2="1434.4" y2="870.0" stroke="#1a1f26" stroke-width="2"/>
+<rect x="1434.4" y="750" width="150.0" height="160" fill="#fff8e8" stroke="#1a1f26" stroke-width="2.5"/>
+<text x="1509.4" y="838.0" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#1a1f26" >Load</text>
+<text x="556.0" y="784.0" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="normal" fill="#1a1f26" >in</text>
+<text x="820.4" y="784.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="normal" fill="#1a1f26" >out</text>
+<text x="366.0" y="995.0" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#555" >Stage 1</text>
+<text x="688.2" y="995.0" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#555" >Stage 2</text>
+<line x1="150.0" y1="0.0" x2="1000.0" y2="0.0" stroke="#e02424" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.6"/>
+<polygon points="1000,-8 1016,0 1000,8" fill="#e02424" opacity="0.7"/>
+<text x="1024.0" y="6.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="normal" fill="#e02424" >spreads, slows</text>
+<ellipse cx="360" cy="0" rx="26" ry="60" fill="#e02424" fill-opacity="0.14" stroke="#e02424" stroke-opacity="0.45" stroke-dasharray="4 4"/>
+<ellipse cx="520" cy="0" rx="32" ry="90" fill="#e02424" fill-opacity="0.1" stroke="#e02424" stroke-opacity="0.45" stroke-dasharray="4 4"/>
+<ellipse cx="700" cy="0" rx="38" ry="130" fill="#e02424" fill-opacity="0.08" stroke="#e02424" stroke-opacity="0.45" stroke-dasharray="4 4"/>
+<ellipse cx="880" cy="0" rx="44" ry="175" fill="#e02424" fill-opacity="0.06" stroke="#e02424" stroke-opacity="0.45" stroke-dasharray="4 4"/>
+<ellipse cx="187" cy="0" rx="22" ry="44" fill="#e02424" fill-opacity="0.18"/>
+<circle cx="177.6" cy="3.4" r="3.2" fill="#e02424"/>
+<circle cx="182.3" cy="7.9" r="3.2" fill="#e02424"/>
+<circle cx="178.3" cy="-20.2" r="3.2" fill="#e02424"/>
+<circle cx="199.1" cy="-1.8" r="3.2" fill="#e02424"/>
+<circle cx="192.0" cy="-26.6" r="3.2" fill="#e02424"/>
+<circle cx="191.9" cy="28.0" r="3.2" fill="#e02424"/>
+<circle cx="187.8" cy="18.3" r="3.2" fill="#e02424"/>
+<circle cx="196.3" cy="6.9" r="3.2" fill="#e02424"/>
+<circle cx="200.2" cy="-2.1" r="3.2" fill="#e02424"/>
+<circle cx="194.9" cy="28.8" r="3.2" fill="#e02424"/>
+<circle cx="183.2" cy="22.9" r="3.2" fill="#e02424"/>
+<circle cx="185.0" cy="33.1" r="3.2" fill="#e02424"/>
+<circle cx="191.6" cy="-15.1" r="3.2" fill="#e02424"/>
+<circle cx="187.3" cy="-8.7" r="3.2" fill="#e02424"/>
+<circle cx="181.6" cy="6.5" r="3.2" fill="#e02424"/>
+<circle cx="190.0" cy="30.7" r="3.2" fill="#e02424"/>
+<circle cx="193.2" cy="-25.6" r="3.2" fill="#e02424"/>
+<circle cx="201.6" cy="5.3" r="3.2" fill="#e02424"/>
+<circle cx="194.7" cy="-22.0" r="3.2" fill="#e02424"/>
+<circle cx="198.9" cy="5.6" r="3.2" fill="#e02424"/>
+<text x="187.0" y="66.0" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="bold" fill="#e02424" >α packet</text>
+<line x1="230.0" y1="181.7" x2="370.0" y2="181.7" stroke="#b8860b" stroke-width="2"/>
+<polygon points="230,181.66666666666669 242,175.66666666666669 242,187.66666666666669" fill="#b8860b"/><polygon points="370,181.66666666666669 358,175.66666666666669 358,187.66666666666669" fill="#b8860b"/>
+<text x="330.0" y="213.66666666666669" text-anchor="middle" font-family="serif" font-style="italic" font-size="26" font-weight="bold" fill="#b8860b">a</text>
+<line x1="562.0" y1="301.4" x2="682.4" y2="301.4" stroke="#b8860b" stroke-width="2"/>
+<polygon points="562,301.42 574,295.42 574,307.42" fill="#b8860b"/><polygon points="682.4,301.42 670.4,295.42 670.4,307.42" fill="#b8860b"/>
+<text x="652.2" y="333.42" text-anchor="middle" font-family="serif" font-style="italic" font-size="26" font-weight="bold" fill="#b8860b">a<tspan font-size="18" dy="6">2</tspan></text>
+<text x="1024.0" y="120.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="normal" fill="#555" font-style="italic">More coil banks can be added radially and axially,</text>
+<text x="1024.0" y="144.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="normal" fill="#555" font-style="italic">each tuned to a slice of the alpha energy spread.</text>
+<text x="1250.0" y="-440.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#1a1f26" >How each coil is tuned</text>
+<text x="1250.0" y="-402.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#1a1f26" >a = width of one turn;  n = turns per coil</text>
+<text x="1250.0" y="-367.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#1a1f26" >v = alpha speed at that coil</text>
+<text x="1250.0" y="-332.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#1a1f26" >f_pkt = packet rate (2 × f_RF)</text>
+<text x="1250.0" y="-297.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#1a1f26" >tank:  f = N · f_pkt  (N ≈ 2-4), same for every coil</text>
+<text x="1250.0" y="-227.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="30" font-weight="bold" fill="#b8860b" >a = v / (2 N f_pkt)</text>
+<text x="1250.0" y="-146.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#1a1f26" >Stage 2 sees slower alphas  →  smaller a</text>
+<text x="1250.0" y="-111.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#1a1f26" >Stage 2: a₂ = 0.86 a  (≈ 7 MeV vs 9.5 MeV alphas)</text>
+<text x="1250.0" y="-76.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#1a1f26" >e.g. 0.5 m p cavity:  f_pkt ≈ 8.06 MHz,  N = 3</text>
+<text x="1250.0" y="-41.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#1a1f26" >      →  f ≈ 24 MHz,  a ≈ 44 cm (9.5 MeV)</text>
+<text x="1250.0" y="-6.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#1a1f26" >Each coil accepts Δv/v ≈ 1/(2n)  (≈ ±5 % for 10 turns)</text>
+<text x="1250.0" y="29.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#1a1f26" >Tank: coil L with C + C_trim,  f = 1/(2π√(L·C_total)),</text>
+<text x="1250.0" y="64.0" text-anchor="start" font-family="Liberation Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="normal" fill="#1a1f26" >      trimmed to N · f_pkt</text>
+</svg>

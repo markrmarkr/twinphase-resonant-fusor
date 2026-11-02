@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="1188" viewBox="0 0 1680 1188">
+  <defs>
+    <style>
+      .title { font: 600 22px system-ui, sans-serif; fill: #1a1f26; }
+      .sub { font: 12px system-ui, sans-serif; fill: #5a6570; }
+      .lbl { font: 700 11px system-ui, sans-serif; }
+      .sm { font: 10px system-ui, sans-serif; fill: #5a6570; }
+      .note { font: 12px system-ui, sans-serif; fill: #3a4550; }
+      .hd { font: 600 13px system-ui, sans-serif; fill: #1a1f26; }
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#5a6570"/>
+    </marker>
+    <!-- Interaction-zone red smear: thick mid-axis, fades at ends -->
+    <radialGradient id="smearGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#e02424" stop-opacity="0.62"/>
+      <stop offset="38%" stop-color="#e02424" stop-opacity="0.30"/>
+      <stop offset="68%" stop-color="#e02424" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#e02424" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Inset species smears: dense toward the meeting point, fade outward -->
+    <radialGradient id="smearGold" cx="70%" cy="50%" r="55%" fx="92%" fy="50%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#e2b01a" stop-opacity="0.74"/>
+      <stop offset="34%" stop-color="#d4a017" stop-opacity="0.42"/>
+      <stop offset="68%" stop-color="#b8860b" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#b8860b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="smearBlue" cx="30%" cy="50%" r="55%" fx="8%" fy="50%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#3a82e8" stop-opacity="0.72"/>
+      <stop offset="34%" stop-color="#2a6fd6" stop-opacity="0.42"/>
+      <stop offset="68%" stop-color="#2a6fd6" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#2a6fd6" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0.5 L7,4 L0,7.5 Z" fill="#e02424"/>
+    </marker>
+    <!-- IEC earth/ground: horizontal bar + three decreasing lines -->
+    <g id="gnd">
+      <line x1="0" y1="-8" x2="0" y2="0" stroke="#0d5a38" stroke-width="1.3"/>
+      <line x1="-10" y1="0" x2="10" y2="0" stroke="#0d5a38" stroke-width="1.6"/>
+      <line x1="-7" y1="4" x2="7" y2="4" stroke="#0d5a38" stroke-width="1.4"/>
+      <line x1="-4" y1="8" x2="4" y2="8" stroke="#0d5a38" stroke-width="1.3"/>
+    </g>
+    <!--
+      HT battery, hangs below its positive terminal (local 0,0).
+      Long bar = positive plate, short bar = negative plate. Two cells.
+      Negative lead ends at local y=26.
+    -->
+    <g id="batHangBlue">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#2a6fd6" stroke-width="1.25"/>
+      <line x1="-9" y1="5.5" x2="9" y2="5.5" stroke="#2a6fd6" stroke-width="2.3"/>
+      <line x1="-4" y1="11" x2="4" y2="11" stroke="#2a6fd6" stroke-width="2.3"/>
+      <line x1="-9" y1="16.5" x2="9" y2="16.5" stroke="#2a6fd6" stroke-width="2.3"/>
+      <line x1="-4" y1="22" x2="4" y2="22" stroke="#2a6fd6" stroke-width="2.3"/>
+      <line x1="0" y1="22" x2="0" y2="26" stroke="#2a6fd6" stroke-width="1.25"/>
+    </g>
+    <g id="batHangGold">
+      <line x1="0" y1="0" x2="0" y2="4" stroke="#b8860b" stroke-width="1.25"/>
+      <line x1="-9" y1="5.5" x2="9" y2="5.5" stroke="#b8860b" stroke-width="2.3"/>
+      <line x1="-4" y1="11" x2="4" y2="11" stroke="#b8860b" stroke-width="2.3"/>
+      <line x1="-9" y1="16.5" x2="9" y2="16.5" stroke="#b8860b" stroke-width="2.3"/>
+      <line x1="-4" y1="22" x2="4" y2="22" stroke="#b8860b" stroke-width="2.3"/>
+      <line x1="0" y1="22" x2="0" y2="26" stroke="#b8860b" stroke-width="1.25"/>
+    </g>
+    <g id="gndBlue">
+      <line x1="-8" y1="0" x2="8" y2="0" stroke="#2a6fd6" stroke-width="1.6"/>
+      <line x1="-5.5" y1="3.6" x2="5.5" y2="3.6" stroke="#2a6fd6" stroke-width="1.35"/>
+      <line x1="-3" y1="7.2" x2="3" y2="7.2" stroke="#2a6fd6" stroke-width="1.2"/>
+    </g>
+    <g id="gndGold">
+      <line x1="-8" y1="0" x2="8" y2="0" stroke="#b8860b" stroke-width="1.6"/>
+      <line x1="-5.5" y1="3.6" x2="5.5" y2="3.6" stroke="#b8860b" stroke-width="1.35"/>
+      <line x1="-3" y1="7.2" x2="3" y2="7.2" stroke="#b8860b" stroke-width="1.2"/>
+    </g>
+  </defs>
+
+  <!-- white print background -->
+  <rect width="1680" height="1188" fill="#ffffff"/>
+  <text x="80" y="34" class="title">TwinPhase Fusor: longitudinal schematic (v17)</text>
+  <text style="font-family: 'DejaVu Sans', sans-serif" x="80" y="54" class="sub">Magnetic-electrostatic aneutronic · Farnsworth/IEC lineage · print-friendly · dimensions conceptual · round tube sections</text>
+
+  <!--
+    Close-up: interaction slice only (the gap between HTS inner faces).
+    Main gap is 110 × 32 (x 745-855, y 304-336), aspect 110/32 = 3.4375.
+    Drawn at scale ×9 → 990 × 288, so the picture matches that aspect.
+    Frame hugs the slice. Green strips are a hint of the inner faces only
+    (14 px ≈ 1.6 main units; bar bodies are 36). No gold inset captions.
+    Smears: each half the main red smear (rx 55, ry 11 → rx 27.5, ry 5.5)
+    at the same ×9 scale (rx 247.5, ry 49.5). Gold left, blue right.
+  -->
+  <text x="335" y="74" class="hd">Compression gap: close-up</text>
+  <rect x="335" y="82" width="1010" height="308" rx="10" fill="#f8fafb" stroke="#c5ced6"/>
+
+  <!-- HTS hint, cut-away: pale strips plus the inner-face edges only.
+       Outer horizontal faces (top of the upper strip, bottom of the lower) are omitted. -->
+  <rect x="345" y="92" width="990" height="22" fill="#e8f5ee"/>
+  <path d="M345,92 V114 H1335 V92" fill="none" stroke="#1a7a4c" stroke-width="2" stroke-linejoin="miter"/>
+  <line x1="345" y1="114" x2="1335" y2="114" stroke="#1a7a4c" stroke-width="2.6"/>
+  <rect x="345" y="358" width="990" height="22" fill="#e8f5ee"/>
+  <path d="M345,380 V358 H1335 V380" fill="none" stroke="#1a7a4c" stroke-width="2" stroke-linejoin="miter"/>
+  <line x1="345" y1="358" x2="1335" y2="358" stroke="#1a7a4c" stroke-width="2.6"/>
+  <line x1="345" y1="114" x2="345" y2="358" stroke="#1a7a4c" stroke-width="1.3" stroke-dasharray="4 3"/>
+  <line x1="1335" y1="114" x2="1335" y2="358" stroke="#1a7a4c" stroke-width="1.3" stroke-dasharray="4 3"/>
+
+  <!-- v16: long streams. Snapshot T/12 after the heads meet at the waist (x=840): Li head 1/3 of the way to its reflector, p stream across the whole view.
+       The p stream is much longer than this view and runs off both edges; the Li tail is off the left edge.
+       Waist profile is conceptual and not specified (builder's choice). -->
+  <g id="closeStreams">
+    <polygon points="345.0,192.0 354.9,193.2 364.8,194.4 374.7,195.5 384.6,196.6 394.5,197.7 404.4,198.8 414.3,199.8 424.2,200.8 434.1,201.8 444.0,202.8 453.9,203.7 463.8,204.7 473.7,205.6 483.6,206.4 493.5,207.3 503.4,208.1 513.3,208.9 523.2,209.7 533.1,210.5 543.0,211.2 552.9,211.9 562.8,212.6 572.7,213.3 582.6,213.9 592.5,214.5 602.4,215.1 612.3,215.7 622.2,216.2 632.1,216.7 642.0,217.2 651.9,217.7 661.8,218.1 671.7,218.5 681.6,218.9 691.5,219.3 701.4,219.6 711.3,220.0 721.2,220.3 731.1,220.5 741.0,220.8 750.9,221.0 760.8,221.2 770.7,221.4 780.6,221.6 790.5,221.7 800.4,221.8 810.3,221.9 820.2,222.0 830.1,222.0 840.0,222.0 849.9,222.0 859.8,222.0 869.7,221.9 879.6,221.8 889.5,221.7 899.4,221.6 909.3,221.4 919.2,221.2 929.1,221.0 939.0,220.8 948.9,220.5 958.8,220.3 968.7,220.0 978.6,219.6 988.5,219.3 998.4,218.9 1008.3,218.5 1018.2,218.1 1028.1,217.7 1038.0,217.2 1047.9,216.7 1057.8,216.2 1067.7,215.7 1077.6,215.1 1087.5,214.5 1097.4,213.9 1107.3,213.3 1117.2,212.6 1127.1,211.9 1137.0,211.2 1146.9,210.5 1156.8,209.7 1166.7,208.9 1176.6,208.1 1186.5,207.3 1196.4,206.4 1206.3,205.6 1216.2,204.7 1226.1,203.7 1236.0,202.8 1245.9,201.8 1255.8,200.8 1265.7,199.8 1275.6,198.8 1285.5,197.7 1295.4,196.6 1305.3,195.5 1315.2,194.4 1325.1,193.2 1335.0,192.0 1335.0,280.0 1325.1,278.8 1315.2,277.6 1305.3,276.5 1295.4,275.4 1285.5,274.3 1275.6,273.2 1265.7,272.2 1255.8,271.2 1245.9,270.2 1236.0,269.2 1226.1,268.3 1216.2,267.3 1206.3,266.4 1196.4,265.6 1186.5,264.7 1176.6,263.9 1166.7,263.1 1156.8,262.3 1146.9,261.5 1137.0,260.8 1127.1,260.1 1117.2,259.4 1107.3,258.7 1097.4,258.1 1087.5,257.5 1077.6,256.9 1067.7,256.3 1057.8,255.8 1047.9,255.3 1038.0,254.8 1028.1,254.3 1018.2,253.9 1008.3,253.5 998.4,253.1 988.5,252.7 978.6,252.4 968.7,252.0 958.8,251.7 948.9,251.5 939.0,251.2 929.1,251.0 919.2,250.8 909.3,250.6 899.4,250.4 889.5,250.3 879.6,250.2 869.7,250.1 859.8,250.0 849.9,250.0 840.0,250.0 830.1,250.0 820.2,250.0 810.3,250.1 800.4,250.2 790.5,250.3 780.6,250.4 770.7,250.6 760.8,250.8 750.9,251.0 741.0,251.2 731.1,251.5 721.2,251.7 711.3,252.0 701.4,252.4 691.5,252.7 681.6,253.1 671.7,253.5 661.8,253.9 651.9,254.3 642.0,254.8 632.1,255.3 622.2,255.8 612.3,256.3 602.4,256.9 592.5,257.5 582.6,258.1 572.7,258.7 562.8,259.4 552.9,260.1 543.0,260.8 533.1,261.5 523.2,262.3 513.3,263.1 503.4,263.9 493.5,264.7 483.6,265.6 473.7,266.4 463.8,267.3 453.9,268.3 444.0,269.2 434.1,270.2 424.2,271.2 414.3,272.2 404.4,273.2 394.5,274.3 384.6,275.4 374.7,276.5 364.8,277.6 354.9,278.8 345.0,280.0" fill="#2a6fd6" fill-opacity="0.50" stroke="#2a6fd6" stroke-width="1.5" stroke-linejoin="round"/>
+    <polygon points="345.0,192.0 352.7,192.9 360.4,193.8 368.1,194.7 375.8,195.6 383.5,196.5 391.2,197.3 398.9,198.2 406.6,199.0 414.3,199.8 422.0,200.6 429.7,201.4 437.4,202.2 445.1,202.9 452.8,203.6 460.5,204.4 468.2,205.1 475.9,205.8 483.6,206.4 491.3,207.1 499.0,207.8 506.7,208.4 514.4,209.0 522.1,209.6 529.8,210.2 537.5,210.8 545.2,211.4 552.9,211.9 560.6,212.4 568.3,213.0 576.0,213.5 583.7,214.0 591.4,214.4 599.1,214.9 606.8,215.3 614.5,215.8 622.2,216.2 629.9,216.6 637.6,217.0 645.3,217.4 653.0,217.7 660.7,218.1 668.4,218.4 676.1,218.7 683.8,219.0 691.5,219.3 699.2,219.6 706.9,219.8 714.6,220.1 722.3,220.3 730.0,220.5 737.7,220.7 745.4,220.9 753.1,221.1 760.8,221.2 768.5,221.4 776.2,221.5 783.9,221.6 791.6,221.7 799.3,221.8 807.0,221.9 814.7,221.9 822.4,222.0 830.1,222.0 837.8,222.0 845.5,222.0 853.2,222.0 860.9,221.9 868.6,221.9 876.3,221.8 884.0,221.8 891.7,221.7 899.4,221.6 907.1,221.4 914.8,221.3 922.5,221.2 930.2,221.0 937.9,220.8 945.6,220.6 953.3,220.4 961.0,220.2 968.7,220.0 976.4,219.7 984.1,219.5 991.8,219.2 999.5,218.9 1007.2,218.6 1014.9,218.3 1022.6,217.9 1030.3,217.6 1038.0,217.2 1045.7,216.8 1053.4,216.4 1061.1,216.0 1068.8,215.6 1076.5,215.2 1084.2,214.7 1091.9,214.2 1099.6,213.7 1107.3,213.3 1115.0,212.7 1115.0,212.7 1118.0,212.9 1121.0,213.5 1123.9,214.5 1126.6,215.9 1129.1,217.5 1131.4,219.6 1133.4,221.8 1135.1,224.4 1136.5,227.1 1137.4,230.0 1138.0,233.0 1138.2,236.0 1138.0,239.0 1137.4,242.0 1136.5,244.9 1135.1,247.6 1133.4,250.2 1131.4,252.4 1129.1,254.5 1126.6,256.1 1123.9,257.5 1121.0,258.5 1118.0,259.1 1115.0,259.3 1115.0,259.3 1107.3,258.7 1099.6,258.3 1091.9,257.8 1084.2,257.3 1076.5,256.8 1068.8,256.4 1061.1,256.0 1053.4,255.6 1045.7,255.2 1038.0,254.8 1030.3,254.4 1022.6,254.1 1014.9,253.7 1007.2,253.4 999.5,253.1 991.8,252.8 984.1,252.5 976.4,252.3 968.7,252.0 961.0,251.8 953.3,251.6 945.6,251.4 937.9,251.2 930.2,251.0 922.5,250.8 914.8,250.7 907.1,250.6 899.4,250.4 891.7,250.3 884.0,250.2 876.3,250.2 868.6,250.1 860.9,250.1 853.2,250.0 845.5,250.0 837.8,250.0 830.1,250.0 822.4,250.0 814.7,250.1 807.0,250.1 799.3,250.2 791.6,250.3 783.9,250.4 776.2,250.5 768.5,250.6 760.8,250.8 753.1,250.9 745.4,251.1 737.7,251.3 730.0,251.5 722.3,251.7 714.6,251.9 706.9,252.2 699.2,252.4 691.5,252.7 683.8,253.0 676.1,253.3 668.4,253.6 660.7,253.9 653.0,254.3 645.3,254.6 637.6,255.0 629.9,255.4 622.2,255.8 614.5,256.2 606.8,256.7 599.1,257.1 591.4,257.6 583.7,258.0 576.0,258.5 568.3,259.0 560.6,259.6 552.9,260.1 545.2,260.6 537.5,261.2 529.8,261.8 522.1,262.4 514.4,263.0 506.7,263.6 499.0,264.2 491.3,264.9 483.6,265.6 475.9,266.2 468.2,266.9 460.5,267.6 452.8,268.4 445.1,269.1 437.4,269.8 429.7,270.6 422.0,271.4 414.3,272.2 406.6,273.0 398.9,273.8 391.2,274.7 383.5,275.5 375.8,276.4 368.1,277.3 360.4,278.2 352.7,279.1 345.0,280.0" fill="#d4a017" fill-opacity="0.62" stroke="#b8860b" stroke-width="1.5" stroke-linejoin="round"/>
+    <ellipse cx="840" cy="236" rx="70" ry="16" fill="url(#smearGrad)"/>
+  </g>
+  <line x1="840" y1="150" x2="840" y2="322" stroke="#5a6570" stroke-width="1" stroke-dasharray="3 4" opacity="0.7"/>
+
+  <!-- direction of travel, inward toward the waist, below the streams -->
+  <line x1="470" y1="306" x2="740" y2="306" stroke="#b8860b" stroke-width="2.2"/>
+  <polygon points="756,306 740,300 740,312" fill="#b8860b"/>
+  <text x="458" y="310" text-anchor="end" fill="#8a6500" font-size="12" font-family="DejaVu Sans, sans-serif" font-weight="700">⁷Li stream</text>
+  <line x1="1210" y1="306" x2="940" y2="306" stroke="#2a6fd6" stroke-width="2.2"/>
+  <polygon points="924,306 940,300 940,312" fill="#2a6fd6"/>
+  <text x="1222" y="310" text-anchor="start" fill="#2a6fd6" font-size="12" font-family="DejaVu Sans, sans-serif" font-weight="700">Proton stream</text>
+  <text x="1140" y="286" text-anchor="middle" fill="#8a6500" font-size="11" font-family="DejaVu Sans, sans-serif">⁷Li stream head</text>
+  <text x="840" y="340" text-anchor="middle" fill="#3a4550" font-size="11" font-family="DejaVu Sans, sans-serif">co-located waists (profile not specified)</text>
+  <text x="360" y="150" fill="#5a6570" font-size="11" font-family="DejaVu Sans, sans-serif">Streams extend beyond this view.</text>
+  <text x="360" y="165" fill="#5a6570" font-size="11" font-family="DejaVu Sans, sans-serif">Length = 1/3 of the round-trip path (illustrative fill 1/3).</text>
+
+  <!-- explosion where the streams overlap -->
+  <g transform="translate(840,236)">
+    <polygon fill="#ffc14a" stroke="#e02424" stroke-width="1.15"
+      points="0,-13 3,-4.4 12.2,-6.4 4.8,-1 13,3.4 4.2,4 6.6,13 0,5.8 -6.6,13 -4.2,4 -13,3.4 -4.8,-1 -12.2,-6.4 -3,-4.4"/>
+    <polygon fill="#e02424"
+      points="0,-6.4 1.6,-2 6,-3 2.4,-0.4 6.4,1.8 2,2 3,6.4 0,3 -3,6.4 -2,2 -6.4,1.8 -2.4,-0.4 -6,-3 -1.6,-2"/>
+  </g>
+
+  <!-- α products leaving the explosion horizontally, opposite directions -->
+  <!-- left α, moving left -->
+  <line x1="824" y1="236" x2="762" y2="236" stroke="#e02424" stroke-width="1.7"/>
+  <polygon points="746,236 762,230 762,242" fill="#e02424"/>
+  <circle cx="728" cy="236" r="5.6" fill="#ffffff"/>
+  <circle cx="728" cy="236" r="4.5" fill="#e02424"/>
+  <text x="728" y="220" text-anchor="middle" fill="#e02424" font-size="15" font-family="DejaVu Sans, sans-serif" font-weight="700">α</text>
+
+  <!-- right α, moving right -->
+  <line x1="856" y1="236" x2="918" y2="236" stroke="#e02424" stroke-width="1.7"/>
+  <polygon points="934,236 918,230 918,242" fill="#e02424"/>
+  <circle cx="952" cy="236" r="5.6" fill="#ffffff"/>
+  <circle cx="952" cy="236" r="4.5" fill="#e02424"/>
+  <text x="952" y="220" text-anchor="middle" fill="#e02424" font-size="15" font-family="DejaVu Sans, sans-serif" font-weight="700">α</text>
+
+  <!-- callout into the explosion -->
+  <text x="840" y="128" text-anchor="middle" fill="#e02424" font-size="13" font-family="DejaVu Sans, sans-serif" font-weight="700">1.55 MeV relative ⁷Li and proton head-on encounters</text>
+  <line x1="840" y1="136" x2="840" y2="214" stroke="#e02424" stroke-width="1.6" marker-end="url(#arrowRed)"/>
+
+  <!-- Machine drawing, lower ~2/3. Original 1600-wide layout shifted +40 x, +300 y. -->
+  <g id="machine" transform="translate(40,300)">
+
+
+
+  <!--
+    Geometry (cx=800, axis y=320, tube Ø≈14 / r=7):
+      compression 745-855; inner refl cx=700/900 cy=270/370;
+      anode cx=670/930 cy=166/474 (v9 centres restored; ring R unchanged);
+      outer refl cx=340/1260 cy=265/375;
+      mag. nozzle centres cx=253/1347 (axial gap to outer-refl centre 87,
+      was 124, about 30% closer); harvesters moved with the nozzles.
+    Canvas: A4-landscape; machine in the lower two-thirds.
+        smear ry=11; one HV battery per reflector set, under that set's RF symbol;
+        anode batteries orthogonal to the ring; inner sine inverted.
+  -->
+  <!-- capsule / sausage grounded outer shell -->
+  <path d="M 160,100
+           L 1440,100
+           A 120,220 0 0 1 1440,540
+           L 160,540
+           A 120,220 0 0 1 160,100 Z"
+        fill="none" stroke="#1a7a4c" stroke-width="2.5" stroke-dasharray="8 6" opacity="0.95"/>
+  <text x="168" y="576" text-anchor="start" fill="#1a7a4c" font-size="11" font-family="system-ui" font-weight="600">grounded outer shell (0 V): capsule / sausage (cylinder + rounded ends)</text>
+  <!-- ground symbol on shell , bottom centre -->
+  <line x1="800" y1="540" x2="800" y2="552" stroke="#0d5a38" stroke-width="1.2"/>
+  <g transform="translate(800,552)">
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#0d5a38" stroke-width="1.6"/>
+    <line x1="-7" y1="4" x2="7" y2="4" stroke="#0d5a38" stroke-width="1.4"/>
+    <line x1="-4" y1="8" x2="4" y2="8" stroke="#0d5a38" stroke-width="1.3"/>
+  </g>
+
+  <!-- harvester zones (not explicitly grounded , no ground symbol) -->
+  <rect x="106" y="195" width="100" height="250" fill="#eef3f8" stroke="#4a7ab0" stroke-width="1.5" rx="6"/>
+  <rect x="1394" y="195" width="100" height="250" fill="#eef3f8" stroke="#4a7ab0" stroke-width="1.5" rx="6"/>
+  <text x="156" y="310" text-anchor="middle" fill="#2a5a8a" font-size="11" font-family="system-ui" font-weight="600">Collector</text>
+  <text x="156" y="328" text-anchor="middle" fill="#2a5a8a" font-size="10" font-family="DejaVu Sans, sans-serif">electrostatic</text>
+  <text x="1444" y="310" text-anchor="middle" fill="#2a5a8a" font-size="11" font-family="system-ui" font-weight="600">Collector</text>
+  <text x="1444" y="328" text-anchor="middle" fill="#2a5a8a" font-size="10" font-family="DejaVu Sans, sans-serif">electrostatic</text>
+
+  <!-- axis -->
+  <line x1="150" y1="320" x2="1504" y2="320" stroke="#9aa5b0" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="1514" y="315" class="sm">z</text>
+
+  <!-- Mag nozzles (0 V, magnetic) -->
+  <g id="nozL">
+    <rect x="235" y="260" width="36" height="38" rx="4" fill="#e8f5ee" stroke="#1a7a4c" stroke-width="2"/>
+    <rect x="235" y="342" width="36" height="38" rx="4" fill="#e8f5ee" stroke="#1a7a4c" stroke-width="2"/>
+    <line x1="235" y1="298" x2="235" y2="342" stroke="#1a7a4c" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <line x1="271" y1="298" x2="271" y2="342" stroke="#1a7a4c" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <text x="253" y="245" text-anchor="middle" class="lbl" fill="#1a7a4c">Mag. nozzle</text>
+
+    <!-- ground on left nozzle -->
+    <line x1="253" y1="380" x2="253" y2="418" stroke="#0d5a38" stroke-width="1.2"/>
+    <g transform="translate(253,418)">
+      <line x1="-10" y1="0" x2="10" y2="0" stroke="#0d5a38" stroke-width="1.6"/>
+      <line x1="-7" y1="4" x2="7" y2="4" stroke="#0d5a38" stroke-width="1.4"/>
+      <line x1="-4" y1="8" x2="4" y2="8" stroke="#0d5a38" stroke-width="1.3"/>
+    </g>
+    <text x="253" y="446" text-anchor="middle" fill="#1a7a4c" font-size="10" font-family="DejaVu Sans, sans-serif">0 V · magnetic</text>
+  </g>
+  <g id="nozR">
+    <rect x="1329" y="260" width="36" height="38" rx="4" fill="#e8f5ee" stroke="#1a7a4c" stroke-width="2"/>
+    <rect x="1329" y="342" width="36" height="38" rx="4" fill="#e8f5ee" stroke="#1a7a4c" stroke-width="2"/>
+    <line x1="1329" y1="298" x2="1329" y2="342" stroke="#1a7a4c" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <line x1="1365" y1="298" x2="1365" y2="342" stroke="#1a7a4c" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <text x="1347" y="245" text-anchor="middle" class="lbl" fill="#1a7a4c">Mag. nozzle</text>
+
+    <!-- ground on right nozzle -->
+    <line x1="1347" y1="380" x2="1347" y2="418" stroke="#0d5a38" stroke-width="1.2"/>
+    <g transform="translate(1347,418)">
+      <line x1="-10" y1="0" x2="10" y2="0" stroke="#0d5a38" stroke-width="1.6"/>
+      <line x1="-7" y1="4" x2="7" y2="4" stroke="#0d5a38" stroke-width="1.4"/>
+      <line x1="-4" y1="8" x2="4" y2="8" stroke="#0d5a38" stroke-width="1.3"/>
+    </g>
+    <text x="1347" y="446" text-anchor="middle" fill="#1a7a4c" font-size="10" font-family="DejaVu Sans, sans-serif">0 V · magnetic</text>
+  </g>
+
+  <!-- Outer reflectors , ROUND tube Ø≈14, smaller ring R -->
+  <g id="outerReflL">
+    <circle cx="340" cy="265" r="7" fill="#eef4fc" stroke="#2a6fd6" stroke-width="2"/>
+    <circle cx="340" cy="375" r="7" fill="#eef4fc" stroke="#2a6fd6" stroke-width="2"/>
+    <line x1="333" y1="265" x2="333" y2="375" stroke="#2a6fd6" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <line x1="347" y1="265" x2="347" y2="375" stroke="#2a6fd6" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <text x="340" y="396" text-anchor="middle" class="lbl" fill="#2a6fd6">outer reflector</text>
+  </g>
+  <g id="outerReflR">
+    <circle cx="1260" cy="265" r="7" fill="#eef4fc" stroke="#2a6fd6" stroke-width="2"/>
+    <circle cx="1260" cy="375" r="7" fill="#eef4fc" stroke="#2a6fd6" stroke-width="2"/>
+    <line x1="1253" y1="265" x2="1253" y2="375" stroke="#2a6fd6" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <line x1="1267" y1="265" x2="1267" y2="375" stroke="#2a6fd6" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <text x="1260" y="396" text-anchor="middle" class="lbl" fill="#2a6fd6">outer reflector</text>
+  </g>
+
+  <!-- Outer AC source ABOVE outer reflectors (blue = outer colour). Normal sine (rises first). -->
+  <g id="outerAC">
+    <line x1="340" y1="258" x2="340" y2="190" stroke="#2a6fd6" stroke-width="1.2"/>
+    <line x1="340" y1="190" x2="786" y2="190" stroke="#2a6fd6" stroke-width="1.2"/>
+    <line x1="814" y1="190" x2="1260" y2="190" stroke="#2a6fd6" stroke-width="1.2"/>
+    <line x1="1260" y1="190" x2="1260" y2="258" stroke="#2a6fd6" stroke-width="1.2"/>
+    <g transform="translate(800,190)">
+      <circle cx="0" cy="0" r="14" fill="#ffffff" stroke="#2a6fd6" stroke-width="1.6"/>
+      <path d="M-8,0 C-5,-8 -3,-8 0,0 C3,8 5,8 8,0" fill="none" stroke="#2a6fd6" stroke-width="1.5"/>
+    </g>
+    <text x="822" y="186" fill="#2a6fd6" font-size="9" font-family="system-ui">RF</text>
+  </g>
+
+  <!-- Anodes , ROUND tube Ø≈14, ring diameter unchanged, v9 centres (nearer the inners) -->
+  <g id="anodeL">
+    <circle cx="432" cy="166" r="7" fill="#eef4fc" stroke="#2a6fd6" stroke-width="2"/>
+    <circle cx="432" cy="474" r="7" fill="#eef4fc" stroke="#2a6fd6" stroke-width="2"/>
+    <line x1="425" y1="166" x2="425" y2="474" stroke="#2a6fd6" stroke-width="1.4" stroke-dasharray="3 3"/>
+    <line x1="439" y1="166" x2="439" y2="474" stroke="#2a6fd6" stroke-width="1.4" stroke-dasharray="3 3"/>
+    <text x="410" y="170" text-anchor="end" class="lbl" fill="#2a6fd6">Anode</text>
+
+  </g>
+  <g id="anodeR">
+    <circle cx="1168" cy="166" r="7" fill="#eef4fc" stroke="#2a6fd6" stroke-width="2"/>
+    <circle cx="1168" cy="474" r="7" fill="#eef4fc" stroke="#2a6fd6" stroke-width="2"/>
+    <line x1="1161" y1="166" x2="1161" y2="474" stroke="#2a6fd6" stroke-width="1.4" stroke-dasharray="3 3"/>
+    <line x1="1175" y1="166" x2="1175" y2="474" stroke="#2a6fd6" stroke-width="1.4" stroke-dasharray="3 3"/>
+    <text x="1190" y="170" text-anchor="start" class="lbl" fill="#2a6fd6">Anode</text>
+
+  </g>
+
+  <!-- Inner reflectors , ROUND tube Ø≈14, close to compression -->
+  <g id="innerReflL">
+    <circle cx="700" cy="270" r="7" fill="#fff8e8" stroke="#b8860b" stroke-width="2"/>
+    <circle cx="700" cy="370" r="7" fill="#fff8e8" stroke="#b8860b" stroke-width="2"/>
+    <line x1="693" y1="270" x2="693" y2="370" stroke="#b8860b" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <line x1="707" y1="270" x2="707" y2="370" stroke="#b8860b" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <text x="700" y="232" text-anchor="middle" class="lbl" fill="#8a6500">inner reflector</text>
+  </g>
+  <g id="innerReflR">
+    <circle cx="900" cy="270" r="7" fill="#fff8e8" stroke="#b8860b" stroke-width="2"/>
+    <circle cx="900" cy="370" r="7" fill="#fff8e8" stroke="#b8860b" stroke-width="2"/>
+    <line x1="893" y1="270" x2="893" y2="370" stroke="#b8860b" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <line x1="907" y1="270" x2="907" y2="370" stroke="#b8860b" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <text x="900" y="232" text-anchor="middle" class="lbl" fill="#8a6500">inner reflector</text>
+  </g>
+
+  <!-- Inner AC source UNDER inner reflectors (gold). Inverted sine = −sin vs the outer source. -->
+  <g id="innerAC">
+    <line x1="700" y1="377" x2="700" y2="445" stroke="#b8860b" stroke-width="1.2"/>
+    <line x1="700" y1="445" x2="786" y2="445" stroke="#b8860b" stroke-width="1.2"/>
+    <line x1="814" y1="445" x2="900" y2="445" stroke="#b8860b" stroke-width="1.2"/>
+    <line x1="900" y1="445" x2="900" y2="377" stroke="#b8860b" stroke-width="1.2"/>
+    <g transform="translate(800,445)">
+      <circle cx="0" cy="0" r="14" fill="#ffffff" stroke="#b8860b" stroke-width="1.6"/>
+      <path d="M-8,0 C-5,8 -3,8 0,0 C3,-8 5,-8 8,0" fill="none" stroke="#8a6500" stroke-width="1.5"/>
+    </g>
+    <text x="822" y="442" fill="#8a6500" font-size="9" font-family="system-ui">RF</text>
+  </g>
+
+  <!-- Red smear: high-B / head-on zone. Full compression length (rx=55 → 745-855), half thickness (ry=11). -->
+  <ellipse cx="800" cy="320" rx="55" ry="11" fill="url(#smearGrad)" stroke="none"/>
+
+  <!-- HTS compression -->
+  <g id="comp">
+    <rect x="745" y="268" width="110" height="36" rx="6" fill="#e8f5ee" stroke="#1a7a4c" stroke-width="2.5"/>
+    <rect x="745" y="336" width="110" height="36" rx="6" fill="#e8f5ee" stroke="#1a7a4c" stroke-width="2.5"/>
+    <line x1="745" y1="304" x2="745" y2="336" stroke="#1a7a4c" stroke-width="1.4" stroke-dasharray="3 3"/>
+    <line x1="855" y1="304" x2="855" y2="336" stroke="#1a7a4c" stroke-width="1.4" stroke-dasharray="3 3"/>
+    <text x="800" y="258" text-anchor="middle" class="lbl" fill="#1a7a4c">HTS magnetic compression (broad)</text>
+    <!-- shared ground on compression assembly (right side lead) -->
+    <line x1="855" y1="354" x2="878" y2="354" stroke="#0d5a38" stroke-width="1.2"/>
+    <line x1="878" y1="354" x2="878" y2="372" stroke="#0d5a38" stroke-width="1.2"/>
+    <g transform="translate(878,372)">
+      <line x1="-10" y1="0" x2="10" y2="0" stroke="#0d5a38" stroke-width="1.6"/>
+      <line x1="-7" y1="4" x2="7" y2="4" stroke="#0d5a38" stroke-width="1.4"/>
+      <line x1="-4" y1="8" x2="4" y2="8" stroke="#0d5a38" stroke-width="1.3"/>
+    </g>
+  </g>
+
+  <!--
+    HV DC , battery symbol. Positive (long bar) toward the electrode, negative to own ground.
+    One battery per reflector set, hung from the bottom of that set's RF circle
+    (outer blue at 800,204; inner gold at 800,459). Side taps on the RF buses removed.
+    Anodes have no AC bus: orthogonal lead to the outer dotted ring line (v9 positions).
+  -->
+  <!-- Outer reflector set , one blue battery on the lower terminal of the blue RF circle -->
+  <g id="hvOuter">
+    <use href="#batHangBlue" x="800" y="204"/>
+    <use href="#gndBlue" x="800" y="230"/>
+    <circle cx="800" cy="204" r="2.4" fill="#2a6fd6"/>
+  </g>
+  <!-- Anode L , orthogonal lead to the ring's left dotted line (joins the bottom circle) -->
+  <g id="hvAnodeL">
+    <line x1="439" y1="474" x2="500" y2="474" stroke="#2a6fd6" stroke-width="1.25"/>
+    <use href="#batHangBlue" x="500" y="474"/>
+    <use href="#gndBlue" x="500" y="500"/>
+    <circle cx="439" cy="474" r="2.6" fill="#2a6fd6"/>
+  </g>
+  <!-- Anode R -->
+  <g id="hvAnodeR">
+    <line x1="1161" y1="474" x2="1100" y2="474" stroke="#2a6fd6" stroke-width="1.25"/>
+    <use href="#batHangBlue" x="1100" y="474"/>
+    <use href="#gndBlue" x="1100" y="500"/>
+    <circle cx="1161" cy="474" r="2.6" fill="#2a6fd6"/>
+  </g>
+  <!-- Inner reflector set , one gold battery on the lower terminal of the gold RF circle -->
+  <g id="hvInner">
+    <use href="#batHangGold" x="800" y="459"/>
+    <use href="#gndGold" x="800" y="485"/>
+    <circle cx="800" cy="459" r="2.4" fill="#b8860b"/>
+  </g>
+
+  <!-- v16: stream density bands. Snapshot T/12 = 20.67 ns after the heads meet at the centre (x=800).
+       Stream length = fill x round-trip path = (1/3) x 4L: proton 585 units (L = 439), Li 133 units (L = 100).
+       Li moves right, head at +L/3, tail on the inner reflector tip (x=700 to 833).
+       Proton moves left, head at -L/3, tail on the outer reflector tip (x=654 to 1239). -->
+  <rect id="bandP" x="653.7" y="306.0" width="585.3" height="16.0" rx="8.0" ry="8.0" fill="#2a6fd6" fill-opacity="0.50" stroke="#2a6fd6" stroke-width="1.5" />
+  <rect id="bandLi" x="700.0" y="320.0" width="133.3" height="14.0" rx="7.0" ry="7.0" fill="#d4a017" fill-opacity="0.62" stroke="#b8860b" stroke-width="1.5" />
+
+  <!-- species travel. Arrow heads point outwards.
+       Blue: almost to the outer reflectors (tips x=361 and x=1239; reflector
+       tube inner edges are x=347 and x=1253 , stop just short).
+       Gold: all the way to the inner reflectors (tips on the ring centrelines x=700 and x=900).
+       Cavity captions stay off the compression block. -->
+  <line x1="373" y1="315" x2="1227" y2="315" stroke="#2a6fd6" stroke-width="1.6"/>
+  <polygon points="361,315 373,311 373,319" fill="#2a6fd6"/>
+  <text x="950" y="299" text-anchor="start" fill="#2a6fd6" font-size="10" font-family="DejaVu Sans, sans-serif">p (and non-⁷Li) cavity · outer RF bucket</text>
+
+  <line x1="712" y1="326" x2="888" y2="326" stroke="#b8860b" stroke-width="1.6"/>
+  <polygon points="900,326 888,322 888,330" fill="#b8860b"/>
+  <text x="688" y="330" text-anchor="end" fill="#8a6500" font-size="10" font-family="DejaVu Sans, sans-serif">⁷Li cavity · inner RF bucket</text>
+
+
+  <!-- v16 timing strip: fill windows at the machine centre over one bounce period T = 248 ns -->
+  <g id="timing">
+    <text x="60" y="600" class="hd">Timing at the machine centre over one bounce period T = 248 ns (f_RF = 1/T = 4.03 MHz)</text>
+    <text x="130" y="627" text-anchor="end" fill="#8a6500" font-size="11" font-family="DejaVu Sans, sans-serif" font-weight="700">⁷Li at the centre</text>
+    <line x1="140" y1="623" x2="1132" y2="623" stroke="#d5dce3" stroke-width="1"/>
+    <rect x="222.7" y="616" width="330.7" height="14" rx="3" fill="#d4a017" fill-opacity="0.55" stroke="#8a6500" stroke-width="1"/>
+    <text x="388.0" y="627" text-anchor="middle" fill="#1a1f26" font-size="10" font-family="DejaVu Sans, sans-serif">83 ns</text>
+    <rect x="718.7" y="616" width="330.7" height="14" rx="3" fill="#d4a017" fill-opacity="0.55" stroke="#8a6500" stroke-width="1"/>
+    <text x="884.0" y="627" text-anchor="middle" fill="#1a1f26" font-size="10" font-family="DejaVu Sans, sans-serif">83 ns</text>
+    <text x="130" y="645" text-anchor="end" fill="#2a6fd6" font-size="11" font-family="DejaVu Sans, sans-serif" font-weight="700">Proton at the centre</text>
+    <line x1="140" y1="641" x2="1132" y2="641" stroke="#d5dce3" stroke-width="1"/>
+    <rect x="222.7" y="634" width="330.7" height="14" rx="3" fill="#2a6fd6" fill-opacity="0.55" stroke="#2a6fd6" stroke-width="1"/>
+    <text x="388.0" y="645" text-anchor="middle" fill="#1a1f26" font-size="10" font-family="DejaVu Sans, sans-serif">83 ns</text>
+    <rect x="718.7" y="634" width="330.7" height="14" rx="3" fill="#2a6fd6" fill-opacity="0.55" stroke="#2a6fd6" stroke-width="1"/>
+    <text x="884.0" y="645" text-anchor="middle" fill="#1a1f26" font-size="10" font-family="DejaVu Sans, sans-serif">83 ns</text>
+    <text x="130" y="663" text-anchor="end" fill="#e02424" font-size="11" font-family="DejaVu Sans, sans-serif" font-weight="700">Overlap = alpha pulse</text>
+    <line x1="140" y1="659" x2="1132" y2="659" stroke="#d5dce3" stroke-width="1"/>
+    <rect x="222.7" y="652" width="330.7" height="14" rx="3" fill="#e02424" fill-opacity="0.7" stroke="#e02424" stroke-width="1"/>
+    <text x="388.0" y="663" text-anchor="middle" fill="#1a1f26" font-size="10" font-family="DejaVu Sans, sans-serif">83 ns</text>
+    <rect x="718.7" y="652" width="330.7" height="14" rx="3" fill="#e02424" fill-opacity="0.7" stroke="#e02424" stroke-width="1"/>
+    <text x="884.0" y="663" text-anchor="middle" fill="#1a1f26" font-size="10" font-family="DejaVu Sans, sans-serif">83 ns</text>
+    <text x="636.0" y="663" text-anchor="middle" fill="#5a6570" font-size="10" font-family="DejaVu Sans, sans-serif">gap 41 ns</text>
+    <line x1="140" y1="676" x2="1132" y2="676" stroke="#1a1f26" stroke-width="1.4"/>
+    <line x1="140" y1="672" x2="140" y2="680" stroke="#1a1f26" stroke-width="1.4"/>
+    <text x="140" y="692" text-anchor="middle" fill="#3a4550" font-size="10" font-family="DejaVu Sans, sans-serif">0</text>
+    <line x1="636" y1="672" x2="636" y2="680" stroke="#1a1f26" stroke-width="1.4"/>
+    <text x="636" y="692" text-anchor="middle" fill="#3a4550" font-size="10" font-family="DejaVu Sans, sans-serif">124 ns = T/2</text>
+    <line x1="1132" y1="672" x2="1132" y2="680" stroke="#1a1f26" stroke-width="1.4"/>
+    <text x="1132" y="692" text-anchor="middle" fill="#3a4550" font-size="10" font-family="DejaVu Sans, sans-serif">248 ns = T</text>
+    <line x1="388" y1="673" x2="388" y2="679" stroke="#5a6570" stroke-width="1"/>
+    <line x1="884" y1="673" x2="884" y2="679" stroke="#5a6570" stroke-width="1"/>
+    <text x="1180" y="614" class="note" style="font-size:11px">Drawn: fill 1/3 of T = 83 ns per pass, gap 41 ns (illustration).</text>
+    <text x="1180" y="628" class="note" style="font-size:11px">Two passes per T, T/2 = 124 ns apart; gap = T/2 minus the fill.</text>
+    <text x="1180" y="642" class="note" style="font-size:11px">Alpha pulses at 2/T = 8.06 MHz exist only when there are gaps.</text>
+    <text x="1180" y="656" class="note" style="font-size:11px">Base case: fill near 1/2 (124 ns). The gaps close and there</text>
+    <text x="1180" y="670" class="note" style="font-size:11px">is always beam at the centre; it only changes direction.</text>
+    <text x="1180" y="684" class="note" style="font-size:11px"></text>
+  </g>
+
+  <!-- Compact legend (v17) -->
+  <rect x="40" y="706" width="1520" height="166" rx="10" fill="#f5f7fa" stroke="#c5ced6"/>
+  <text x="60" y="728" class="hd">Key (v17)</text>
+
+  <rect x="60" y="738" width="14" height="14" rx="3" fill="#1a7a4c"/>
+  <text x="84" y="750" class="note">Grounded and magnetic: capsule shell, HTS magnetic compression, Magnetic nozzles.</text>
+  <rect x="60" y="760" width="14" height="14" rx="3" fill="#2a6fd6"/>
+  <text style="font-family: 'DejaVu Sans', sans-serif" x="84" y="772" class="note">Outer reflector (DC±RF) and anode (DC only): rated ~1.5 MV class</text>
+  <rect x="60" y="782" width="14" height="14" rx="3" fill="#b8860b"/>
+  <text x="84" y="794" class="note">Inner reflector: DC at reflection V + small AC</text>
+  <ellipse cx="67" cy="811" rx="11" ry="3" fill="#e02424" opacity="0.45"/>
+  <text x="84" y="815" class="note" style="font-family: 'DejaVu Sans', sans-serif">Red interaction region, 1.55 MeV: p and ⁷Li to 2 α and 17.3 MeV</text>
+
+  <g transform="translate(62,830)" stroke="#2a6fd6" fill="none">
+    <line x1="0" y1="0" x2="16" y2="0" stroke-width="2.2"/>
+    <line x1="4.5" y1="5" x2="11.5" y2="5" stroke-width="2.2"/>
+    <line x1="0" y1="10" x2="16" y2="10" stroke-width="2.2"/>
+    <line x1="4.5" y1="15" x2="11.5" y2="15" stroke-width="2.2"/>
+  </g>
+  <text style="font-family: 'DejaVu Sans', sans-serif" x="84" y="843" class="note">HV ~1.5 MV class</text>
+  <g transform="translate(250,830)" stroke="#b8860b" fill="none">
+    <line x1="0" y1="0" x2="16" y2="0" stroke-width="2.2"/>
+    <line x1="4.5" y1="5" x2="11.5" y2="5" stroke-width="2.2"/>
+    <line x1="0" y1="10" x2="16" y2="10" stroke-width="2.2"/>
+    <line x1="4.5" y1="15" x2="11.5" y2="15" stroke-width="2.2"/>
+  </g>
+  <text x="274" y="843" class="note">HV 64.9 kV (7Li reflection potential)</text>
+
+  <rect x="690" y="738" width="34" height="12" rx="6" fill="#d4a017" fill-opacity="0.62" stroke="#b8860b" stroke-width="1.5"/>
+  <text x="734" y="749" class="note">⁷Li stream density (shaded band)</text>
+  <rect x="690" y="760" width="34" height="12" rx="6" fill="#2a6fd6" fill-opacity="0.50" stroke="#2a6fd6" stroke-width="1.5"/>
+  <text x="734" y="771" class="note">Proton stream density (shaded band)</text>
+  <text x="690" y="796" class="note">Illustrative snapshot at fill 1/3, 21 ns (T/12) after the</text>
+  <text x="690" y="812" class="note">stream heads meet at the waist. Stream length = fill ×</text>
+  <text x="690" y="828" class="note">round-trip path = 1/3 × 4L (L = centre to reflector).</text>
+  <text x="690" y="852" class="note">Proton beam energy 1.355 MeV (1.355 MV); the ~1.5 MV class</text>
+  <text x="690" y="866" class="note">rating sits above it for stopping margin.</text>
+
+  <text style="font-family: 'DejaVu Sans', sans-serif" x="1150" y="728" class="hd">Ring order (centre → out)</text>
+  <text style="font-family: 'DejaVu Sans', sans-serif" x="1150" y="750" class="note">HTS compression → inner reflector → Anode →</text>
+  <text style="font-family: 'DejaVu Sans', sans-serif" x="1150" y="766" class="note">outer reflector → Mag. nozzle → Collector</text>
+  <text x="1150" y="790" class="note">Shell clearance: HV standoff ~30 cm class.</text>
+  <g transform="translate(1162,814)">
+    <circle cx="0" cy="0" r="11" fill="#ffffff" stroke="#2a6fd6" stroke-width="1.3"/>
+    <path d="M-6.5,0 C-4,-6.5 -2,-6.5 0,0 C2,6.5 4,6.5 6.5,0" fill="none" stroke="#2a6fd6" stroke-width="1.35"/>
+  </g>
+  <text x="1180" y="818" class="note">outer RF: normal sine</text>
+  <g transform="translate(1162,843)">
+    <circle cx="0" cy="0" r="11" fill="#ffffff" stroke="#b8860b" stroke-width="1.3"/>
+    <path d="M-6.5,0 C-4,6.5 -2,6.5 0,0 C2,-6.5 4,-6.5 6.5,0" fill="none" stroke="#8a6500" stroke-width="1.35"/>
+  </g>
+  <text style="font-family: 'DejaVu Sans', sans-serif" x="1180" y="847" class="note">inner RF: inverted sine (180°)</text>
+
+
+  </g>
+</svg>
+

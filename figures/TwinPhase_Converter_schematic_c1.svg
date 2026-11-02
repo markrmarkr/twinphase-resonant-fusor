@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="830" viewBox="0 0 1680 830">
+<rect width="1680" height="830" fill="#ffffff"/>
+<text x="70" y="56" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="28" fill="#1a1f26" font-weight="bold">TwinPhase electrostatic direct converter (schematic c1)</text>
+<text x="70" y="84" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#6b7682" font-weight="normal">Magnetic nozzle, retarding gap and collector. Conceptual, not to scale. No efficiency is implied.</text>
+<rect x="70" y="300" width="150" height="220" rx="14" fill="#f3f6fa" stroke="#9fb0c2" stroke-width="2"/>
+<text x="145" y="340" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1a1f26" font-weight="bold">Interaction</text>
+<text x="145" y="360" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1a1f26" font-weight="bold">zone</text>
+<ellipse cx="145" cy="418" rx="38" ry="12" fill="#c81e1e" opacity="0.40"/>
+<text x="145" y="470" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#6b7682" font-weight="normal">p and ⁷Li fuse</text>
+<text x="145" y="488" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#6b7682" font-weight="normal">to 2 alphas</text>
+<rect x="300" y="277" width="250" height="36" rx="8" fill="#e6f3ec" stroke="#1a7a4c" stroke-width="2.5"/>
+<rect x="300" y="507" width="250" height="36" rx="8" fill="#e6f3ec" stroke="#1a7a4c" stroke-width="2.5"/>
+<text x="425" y="245" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1a7a4c" font-weight="bold">Magnetic nozzle at ground (0 V)</text>
+<text x="425" y="265" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1a7a4c" font-weight="normal">expands and collimates the alphas</text>
+<path d="M290.0,385.0 L294.5,385.0 L299.0,384.8 L303.5,384.7 L308.0,384.4 L312.5,384.1 L317.0,383.7 L321.5,383.2 L326.0,382.6 L330.5,382.0 L335.0,381.3 L339.5,380.6 L344.0,379.7 L348.5,378.9 L353.0,377.9 L357.5,376.9 L362.0,375.9 L366.5,374.8 L371.0,373.7 L375.5,372.5 L380.0,371.2 L384.5,370.0 L389.0,368.7 L393.5,367.4 L398.0,366.0 L402.5,364.6 L407.0,363.2 L411.5,361.8 L416.0,360.4 L420.5,358.9 L425.0,357.5 L429.5,356.1 L434.0,354.6 L438.5,353.2 L443.0,351.8 L447.5,350.4 L452.0,349.0 L456.5,347.6 L461.0,346.3 L465.5,345.0 L470.0,343.8 L474.5,342.5 L479.0,341.3 L483.5,340.2 L488.0,339.1 L492.5,338.1 L497.0,337.1 L501.5,336.1 L506.0,335.3 L510.5,334.4 L515.0,333.7 L519.5,333.0 L524.0,332.4 L528.5,331.8 L533.0,331.3 L537.5,330.9 L542.0,330.6 L546.5,330.3 L551.0,330.2 L555.5,330.0 L560.0,330.0" fill="none" stroke="#1a7a4c" stroke-width="1.6" opacity="0.65"/>
+<line x1="560" y1="330.0" x2="1015" y2="330.0" stroke="#1a7a4c" stroke-width="1" opacity="0.18"/>
+<path d="M290.0,397.5 L294.5,397.5 L299.0,397.4 L303.5,397.3 L308.0,397.2 L312.5,397.0 L317.0,396.8 L321.5,396.6 L326.0,396.3 L330.5,396.0 L335.0,395.7 L339.5,395.3 L344.0,394.9 L348.5,394.4 L353.0,394.0 L357.5,393.5 L362.0,393.0 L366.5,392.4 L371.0,391.8 L375.5,391.2 L380.0,390.6 L384.5,390.0 L389.0,389.3 L393.5,388.7 L398.0,388.0 L402.5,387.3 L407.0,386.6 L411.5,385.9 L416.0,385.2 L420.5,384.5 L425.0,383.8 L429.5,383.0 L434.0,382.3 L438.5,381.6 L443.0,380.9 L447.5,380.2 L452.0,379.5 L456.5,378.8 L461.0,378.2 L465.5,377.5 L470.0,376.9 L474.5,376.3 L479.0,375.7 L483.5,375.1 L488.0,374.5 L492.5,374.0 L497.0,373.5 L501.5,373.1 L506.0,372.6 L510.5,372.2 L515.0,371.8 L519.5,371.5 L524.0,371.2 L528.5,370.9 L533.0,370.7 L537.5,370.5 L542.0,370.3 L546.5,370.2 L551.0,370.1 L555.5,370.0 L560.0,370.0" fill="none" stroke="#1a7a4c" stroke-width="1.6" opacity="0.65"/>
+<line x1="560" y1="370.0" x2="1015" y2="370.0" stroke="#1a7a4c" stroke-width="1" opacity="0.18"/>
+<path d="M290.0,410.0 L294.5,410.0 L299.0,410.0 L303.5,410.0 L308.0,410.0 L312.5,410.0 L317.0,410.0 L321.5,410.0 L326.0,410.0 L330.5,410.0 L335.0,410.0 L339.5,410.0 L344.0,410.0 L348.5,410.0 L353.0,410.0 L357.5,410.0 L362.0,410.0 L366.5,410.0 L371.0,410.0 L375.5,410.0 L380.0,410.0 L384.5,410.0 L389.0,410.0 L393.5,410.0 L398.0,410.0 L402.5,410.0 L407.0,410.0 L411.5,410.0 L416.0,410.0 L420.5,410.0 L425.0,410.0 L429.5,410.0 L434.0,410.0 L438.5,410.0 L443.0,410.0 L447.5,410.0 L452.0,410.0 L456.5,410.0 L461.0,410.0 L465.5,410.0 L470.0,410.0 L474.5,410.0 L479.0,410.0 L483.5,410.0 L488.0,410.0 L492.5,410.0 L497.0,410.0 L501.5,410.0 L506.0,410.0 L510.5,410.0 L515.0,410.0 L519.5,410.0 L524.0,410.0 L528.5,410.0 L533.0,410.0 L537.5,410.0 L542.0,410.0 L546.5,410.0 L551.0,410.0 L555.5,410.0 L560.0,410.0" fill="none" stroke="#1a7a4c" stroke-width="1.6" opacity="0.65"/>
+<line x1="560" y1="410.0" x2="1015" y2="410.0" stroke="#1a7a4c" stroke-width="1" opacity="0.18"/>
+<path d="M290.0,422.5 L294.5,422.5 L299.0,422.6 L303.5,422.7 L308.0,422.8 L312.5,423.0 L317.0,423.2 L321.5,423.4 L326.0,423.7 L330.5,424.0 L335.0,424.3 L339.5,424.7 L344.0,425.1 L348.5,425.6 L353.0,426.0 L357.5,426.5 L362.0,427.0 L366.5,427.6 L371.0,428.2 L375.5,428.8 L380.0,429.4 L384.5,430.0 L389.0,430.7 L393.5,431.3 L398.0,432.0 L402.5,432.7 L407.0,433.4 L411.5,434.1 L416.0,434.8 L420.5,435.5 L425.0,436.2 L429.5,437.0 L434.0,437.7 L438.5,438.4 L443.0,439.1 L447.5,439.8 L452.0,440.5 L456.5,441.2 L461.0,441.8 L465.5,442.5 L470.0,443.1 L474.5,443.7 L479.0,444.3 L483.5,444.9 L488.0,445.5 L492.5,446.0 L497.0,446.5 L501.5,446.9 L506.0,447.4 L510.5,447.8 L515.0,448.2 L519.5,448.5 L524.0,448.8 L528.5,449.1 L533.0,449.3 L537.5,449.5 L542.0,449.7 L546.5,449.8 L551.0,449.9 L555.5,450.0 L560.0,450.0" fill="none" stroke="#1a7a4c" stroke-width="1.6" opacity="0.65"/>
+<line x1="560" y1="450.0" x2="1015" y2="450.0" stroke="#1a7a4c" stroke-width="1" opacity="0.18"/>
+<path d="M290.0,435.0 L294.5,435.0 L299.0,435.2 L303.5,435.3 L308.0,435.6 L312.5,435.9 L317.0,436.3 L321.5,436.8 L326.0,437.4 L330.5,438.0 L335.0,438.7 L339.5,439.4 L344.0,440.3 L348.5,441.1 L353.0,442.1 L357.5,443.1 L362.0,444.1 L366.5,445.2 L371.0,446.3 L375.5,447.5 L380.0,448.8 L384.5,450.0 L389.0,451.3 L393.5,452.6 L398.0,454.0 L402.5,455.4 L407.0,456.8 L411.5,458.2 L416.0,459.6 L420.5,461.1 L425.0,462.5 L429.5,463.9 L434.0,465.4 L438.5,466.8 L443.0,468.2 L447.5,469.6 L452.0,471.0 L456.5,472.4 L461.0,473.7 L465.5,475.0 L470.0,476.2 L474.5,477.5 L479.0,478.7 L483.5,479.8 L488.0,480.9 L492.5,481.9 L497.0,482.9 L501.5,483.9 L506.0,484.7 L510.5,485.6 L515.0,486.3 L519.5,487.0 L524.0,487.6 L528.5,488.2 L533.0,488.7 L537.5,489.1 L542.0,489.4 L546.5,489.7 L551.0,489.8 L555.5,490.0 L560.0,490.0" fill="none" stroke="#1a7a4c" stroke-width="1.6" opacity="0.65"/>
+<line x1="560" y1="490.0" x2="1015" y2="490.0" stroke="#1a7a4c" stroke-width="1" opacity="0.18"/>
+<text x="425" y="585" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#1a7a4c" font-weight="normal">field lines open out</text>
+<circle cx="290.0" cy="385.0" r="4.2" fill="#c81e1e"/>
+<circle cx="328.6" cy="382.3" r="4.2" fill="#c81e1e"/>
+<circle cx="367.1" cy="374.6" r="4.2" fill="#c81e1e"/>
+<circle cx="405.7" cy="363.6" r="4.2" fill="#c81e1e"/>
+<circle cx="444.3" cy="351.4" r="4.2" fill="#c81e1e"/>
+<circle cx="482.9" cy="340.4" r="4.2" fill="#c81e1e"/>
+<circle cx="521.4" cy="332.7" r="4.2" fill="#c81e1e"/>
+<circle cx="560.0" cy="330.0" r="4.2" fill="#c81e1e"/>
+<circle cx="600.0" cy="330.0" r="4.2" fill="#c81e1e"/>
+<circle cx="648.0" cy="330.0" r="4.2" fill="#c81e1e"/>
+<circle cx="691.2" cy="330.0" r="3.9" fill="#c81e1e"/>
+<circle cx="730.1" cy="330.0" r="3.7" fill="#c81e1e"/>
+<circle cx="765.1" cy="330.0" r="3.6" fill="#c81e1e"/>
+<circle cx="796.6" cy="330.0" r="3.4" fill="#c81e1e"/>
+<circle cx="824.9" cy="330.0" r="3.3" fill="#c81e1e"/>
+<circle cx="850.4" cy="330.0" r="3.1" fill="#c81e1e"/>
+<circle cx="873.4" cy="330.0" r="3.0" fill="#c81e1e"/>
+<circle cx="894.0" cy="330.0" r="2.9" fill="#c81e1e"/>
+<circle cx="912.6" cy="330.0" r="2.8" fill="#c81e1e"/>
+<circle cx="929.4" cy="330.0" r="2.8" fill="#c81e1e"/>
+<circle cx="945.4" cy="330.0" r="2.8" fill="#c81e1e"/>
+<circle cx="961.4" cy="330.0" r="2.8" fill="#c81e1e"/>
+<circle cx="977.4" cy="330.0" r="2.8" fill="#c81e1e"/>
+<circle cx="993.4" cy="330.0" r="2.8" fill="#c81e1e"/>
+<circle cx="1009.4" cy="330.0" r="2.8" fill="#c81e1e"/>
+<circle cx="1025.4" cy="330.0" r="2.8" fill="#c81e1e"/>
+<circle cx="290.0" cy="397.5" r="4.2" fill="#c81e1e"/>
+<circle cx="328.6" cy="396.1" r="4.2" fill="#c81e1e"/>
+<circle cx="367.1" cy="392.3" r="4.2" fill="#c81e1e"/>
+<circle cx="405.7" cy="386.8" r="4.2" fill="#c81e1e"/>
+<circle cx="444.3" cy="380.7" r="4.2" fill="#c81e1e"/>
+<circle cx="482.9" cy="375.2" r="4.2" fill="#c81e1e"/>
+<circle cx="521.4" cy="371.4" r="4.2" fill="#c81e1e"/>
+<circle cx="560.0" cy="370.0" r="4.2" fill="#c81e1e"/>
+<circle cx="600.0" cy="370.0" r="4.2" fill="#c81e1e"/>
+<circle cx="648.0" cy="370.0" r="4.2" fill="#c81e1e"/>
+<circle cx="691.2" cy="370.0" r="3.9" fill="#c81e1e"/>
+<circle cx="730.1" cy="370.0" r="3.7" fill="#c81e1e"/>
+<circle cx="765.1" cy="370.0" r="3.6" fill="#c81e1e"/>
+<circle cx="796.6" cy="370.0" r="3.4" fill="#c81e1e"/>
+<circle cx="824.9" cy="370.0" r="3.3" fill="#c81e1e"/>
+<circle cx="850.4" cy="370.0" r="3.1" fill="#c81e1e"/>
+<circle cx="873.4" cy="370.0" r="3.0" fill="#c81e1e"/>
+<circle cx="894.0" cy="370.0" r="2.9" fill="#c81e1e"/>
+<circle cx="912.6" cy="370.0" r="2.8" fill="#c81e1e"/>
+<circle cx="929.4" cy="370.0" r="2.8" fill="#c81e1e"/>
+<circle cx="945.4" cy="370.0" r="2.8" fill="#c81e1e"/>
+<circle cx="961.4" cy="370.0" r="2.8" fill="#c81e1e"/>
+<circle cx="977.4" cy="370.0" r="2.8" fill="#c81e1e"/>
+<circle cx="993.4" cy="370.0" r="2.8" fill="#c81e1e"/>
+<circle cx="1009.4" cy="370.0" r="2.8" fill="#c81e1e"/>
+<circle cx="1025.4" cy="370.0" r="2.8" fill="#c81e1e"/>
+<circle cx="290.0" cy="410.0" r="4.2" fill="#c81e1e"/>
+<circle cx="328.6" cy="410.0" r="4.2" fill="#c81e1e"/>
+<circle cx="367.1" cy="410.0" r="4.2" fill="#c81e1e"/>
+<circle cx="405.7" cy="410.0" r="4.2" fill="#c81e1e"/>
+<circle cx="444.3" cy="410.0" r="4.2" fill="#c81e1e"/>
+<circle cx="482.9" cy="410.0" r="4.2" fill="#c81e1e"/>
+<circle cx="521.4" cy="410.0" r="4.2" fill="#c81e1e"/>
+<circle cx="560.0" cy="410.0" r="4.2" fill="#c81e1e"/>
+<circle cx="600.0" cy="410.0" r="4.2" fill="#c81e1e"/>
+<circle cx="648.0" cy="410.0" r="4.2" fill="#c81e1e"/>
+<circle cx="691.2" cy="410.0" r="3.9" fill="#c81e1e"/>
+<circle cx="730.1" cy="410.0" r="3.7" fill="#c81e1e"/>
+<circle cx="765.1" cy="410.0" r="3.6" fill="#c81e1e"/>
+<circle cx="796.6" cy="410.0" r="3.4" fill="#c81e1e"/>
+<circle cx="824.9" cy="410.0" r="3.3" fill="#c81e1e"/>
+<circle cx="850.4" cy="410.0" r="3.1" fill="#c81e1e"/>
+<circle cx="873.4" cy="410.0" r="3.0" fill="#c81e1e"/>
+<circle cx="894.0" cy="410.0" r="2.9" fill="#c81e1e"/>
+<circle cx="912.6" cy="410.0" r="2.8" fill="#c81e1e"/>
+<circle cx="929.4" cy="410.0" r="2.8" fill="#c81e1e"/>
+<circle cx="945.4" cy="410.0" r="2.8" fill="#c81e1e"/>
+<circle cx="961.4" cy="410.0" r="2.8" fill="#c81e1e"/>
+<circle cx="977.4" cy="410.0" r="2.8" fill="#c81e1e"/>
+<circle cx="993.4" cy="410.0" r="2.8" fill="#c81e1e"/>
+<circle cx="1009.4" cy="410.0" r="2.8" fill="#c81e1e"/>
+<circle cx="1025.4" cy="410.0" r="2.8" fill="#c81e1e"/>
+<circle cx="290.0" cy="422.5" r="4.2" fill="#c81e1e"/>
+<circle cx="328.6" cy="423.9" r="4.2" fill="#c81e1e"/>
+<circle cx="367.1" cy="427.7" r="4.2" fill="#c81e1e"/>
+<circle cx="405.7" cy="433.2" r="4.2" fill="#c81e1e"/>
+<circle cx="444.3" cy="439.3" r="4.2" fill="#c81e1e"/>
+<circle cx="482.9" cy="444.8" r="4.2" fill="#c81e1e"/>
+<circle cx="521.4" cy="448.6" r="4.2" fill="#c81e1e"/>
+<circle cx="560.0" cy="450.0" r="4.2" fill="#c81e1e"/>
+<circle cx="600.0" cy="450.0" r="4.2" fill="#c81e1e"/>
+<circle cx="648.0" cy="450.0" r="4.2" fill="#c81e1e"/>
+<circle cx="691.2" cy="450.0" r="3.9" fill="#c81e1e"/>
+<circle cx="730.1" cy="450.0" r="3.7" fill="#c81e1e"/>
+<circle cx="765.1" cy="450.0" r="3.6" fill="#c81e1e"/>
+<circle cx="796.6" cy="450.0" r="3.4" fill="#c81e1e"/>
+<circle cx="824.9" cy="450.0" r="3.3" fill="#c81e1e"/>
+<circle cx="850.4" cy="450.0" r="3.1" fill="#c81e1e"/>
+<circle cx="873.4" cy="450.0" r="3.0" fill="#c81e1e"/>
+<circle cx="894.0" cy="450.0" r="2.9" fill="#c81e1e"/>
+<circle cx="912.6" cy="450.0" r="2.8" fill="#c81e1e"/>
+<circle cx="929.4" cy="450.0" r="2.8" fill="#c81e1e"/>
+<circle cx="945.4" cy="450.0" r="2.8" fill="#c81e1e"/>
+<circle cx="961.4" cy="450.0" r="2.8" fill="#c81e1e"/>
+<circle cx="977.4" cy="450.0" r="2.8" fill="#c81e1e"/>
+<circle cx="993.4" cy="450.0" r="2.8" fill="#c81e1e"/>
+<circle cx="1009.4" cy="450.0" r="2.8" fill="#c81e1e"/>
+<circle cx="1025.4" cy="450.0" r="2.8" fill="#c81e1e"/>
+<circle cx="290.0" cy="435.0" r="4.2" fill="#c81e1e"/>
+<circle cx="328.6" cy="437.7" r="4.2" fill="#c81e1e"/>
+<circle cx="367.1" cy="445.4" r="4.2" fill="#c81e1e"/>
+<circle cx="405.7" cy="456.4" r="4.2" fill="#c81e1e"/>
+<circle cx="444.3" cy="468.6" r="4.2" fill="#c81e1e"/>
+<circle cx="482.9" cy="479.6" r="4.2" fill="#c81e1e"/>
+<circle cx="521.4" cy="487.3" r="4.2" fill="#c81e1e"/>
+<circle cx="560.0" cy="490.0" r="4.2" fill="#c81e1e"/>
+<circle cx="600.0" cy="490.0" r="4.2" fill="#c81e1e"/>
+<circle cx="648.0" cy="490.0" r="4.2" fill="#c81e1e"/>
+<circle cx="691.2" cy="490.0" r="3.9" fill="#c81e1e"/>
+<circle cx="730.1" cy="490.0" r="3.7" fill="#c81e1e"/>
+<circle cx="765.1" cy="490.0" r="3.6" fill="#c81e1e"/>
+<circle cx="796.6" cy="490.0" r="3.4" fill="#c81e1e"/>
+<circle cx="824.9" cy="490.0" r="3.3" fill="#c81e1e"/>
+<circle cx="850.4" cy="490.0" r="3.1" fill="#c81e1e"/>
+<circle cx="873.4" cy="490.0" r="3.0" fill="#c81e1e"/>
+<circle cx="894.0" cy="490.0" r="2.9" fill="#c81e1e"/>
+<circle cx="912.6" cy="490.0" r="2.8" fill="#c81e1e"/>
+<circle cx="929.4" cy="490.0" r="2.8" fill="#c81e1e"/>
+<circle cx="945.4" cy="490.0" r="2.8" fill="#c81e1e"/>
+<circle cx="961.4" cy="490.0" r="2.8" fill="#c81e1e"/>
+<circle cx="977.4" cy="490.0" r="2.8" fill="#c81e1e"/>
+<circle cx="993.4" cy="490.0" r="2.8" fill="#c81e1e"/>
+<circle cx="1009.4" cy="490.0" r="2.8" fill="#c81e1e"/>
+<circle cx="1025.4" cy="490.0" r="2.8" fill="#c81e1e"/>
+<line x1="90" y1="560" x2="260" y2="560" stroke="#c81e1e" stroke-width="3"/>
+<polygon points="272,560 254,552 254,568" fill="#c81e1e"/>
+<text x="70" y="595" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#c81e1e" font-weight="bold">Alphas: 9.45 MeV, charge 2+</text>
+<line x1="640" y1="260" x2="640" y2="560" stroke="#2a6fd6" stroke-width="3" stroke-dasharray="4 7"/>
+<text x="640" y="210" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#2a6fd6" font-weight="bold">Electron suppressor grid</text>
+<text x="640" y="230" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#2a6fd6" font-weight="normal">(held slightly negative)</text>
+<line x1="795" y1="274.0" x2="740" y2="274.0" stroke="#6b7682" stroke-width="2"/>
+<polygon points="731,274.0 744,268.0 744,280.0" fill="#6b7682"/>
+<line x1="935" y1="274.0" x2="880" y2="274.0" stroke="#6b7682" stroke-width="2"/>
+<polygon points="871,274.0 884,268.0 884,280.0" fill="#6b7682"/>
+<line x1="795" y1="546.0" x2="740" y2="546.0" stroke="#6b7682" stroke-width="2"/>
+<polygon points="731,546.0 744,540.0 744,552.0" fill="#6b7682"/>
+<line x1="935" y1="546.0" x2="880" y2="546.0" stroke="#6b7682" stroke-width="2"/>
+<polygon points="871,546.0 884,540.0 884,552.0" fill="#6b7682"/>
+<text x="850" y="625" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#6b7682" font-weight="normal">Retarding gap: the electric field</text>
+<text x="850" y="643" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#6b7682" font-weight="normal">pushes back, so the alphas slow</text>
+<text x="850" y="661" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#6b7682" font-weight="normal">as they climb toward the plate</text>
+<line x1="868" y1="282" x2="892" y2="264" stroke="#2a6fd6" stroke-width="3" stroke-dasharray="5 4" opacity="0.8"/>
+<line x1="868" y1="312" x2="892" y2="294" stroke="#2a6fd6" stroke-width="3" stroke-dasharray="5 4" opacity="0.8"/>
+<line x1="868" y1="342" x2="892" y2="324" stroke="#2a6fd6" stroke-width="3" stroke-dasharray="5 4" opacity="0.8"/>
+<line x1="868" y1="372" x2="892" y2="354" stroke="#2a6fd6" stroke-width="3" stroke-dasharray="5 4" opacity="0.8"/>
+<line x1="868" y1="402" x2="892" y2="384" stroke="#2a6fd6" stroke-width="3" stroke-dasharray="5 4" opacity="0.8"/>
+<line x1="868" y1="432" x2="892" y2="414" stroke="#2a6fd6" stroke-width="3" stroke-dasharray="5 4" opacity="0.8"/>
+<line x1="868" y1="462" x2="892" y2="444" stroke="#2a6fd6" stroke-width="3" stroke-dasharray="5 4" opacity="0.8"/>
+<line x1="868" y1="492" x2="892" y2="474" stroke="#2a6fd6" stroke-width="3" stroke-dasharray="5 4" opacity="0.8"/>
+<line x1="868" y1="522" x2="892" y2="504" stroke="#2a6fd6" stroke-width="3" stroke-dasharray="5 4" opacity="0.8"/>
+<line x1="868" y1="552" x2="892" y2="534" stroke="#2a6fd6" stroke-width="3" stroke-dasharray="5 4" opacity="0.8"/>
+<text x="880" y="204" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#2a6fd6" font-weight="bold">Optional second stage</text>
+<text x="880" y="224" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#2a6fd6" font-weight="normal">at a lower voltage, in front,</text>
+<text x="880" y="242" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#2a6fd6" font-weight="normal">catches the slow tail</text>
+<rect x="1040" y="240" width="26" height="340" rx="4" fill="#2a6fd6"/>
+<text x="1090" y="290" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#2a6fd6" font-weight="bold">Collector plate (stage 1)</text>
+<text x="1090" y="312" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#2a6fd6" font-weight="bold">about +4.5 to +4.7 MV</text>
+<text x="1090" y="340" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1a1f26" font-weight="normal">just under</text>
+<text x="1090" y="364" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1a1f26" font-weight="bold">V<tspan dy="4" font-size="11">stop</tspan></text>
+<text x="1144" y="364" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1a1f26" font-weight="bold">= 4.72 MV for 9.45 MeV alphas</text>
+<text x="1090" y="396" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#6b7682" font-weight="normal">Alphas land slowly on the plate;</text>
+<text x="1090" y="414" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#6b7682" font-weight="normal">their charge is collected at the</text>
+<text x="1090" y="432" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#6b7682" font-weight="normal">plate voltage.</text>
+<polyline points="1053,240 1053,195 1440,195 1440,215" fill="none" stroke="#1a1f26" stroke-width="3"/>
+<rect x="1330" y="215" width="220" height="130" rx="12" fill="#f6f1e4" stroke="#b8860b" stroke-width="2.5"/>
+<text x="1440" y="257" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1a1f26" font-weight="bold">Load and DC supply</text>
+<text x="1440" y="279" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1a1f26" font-weight="bold">interface</text>
+<text x="1440" y="309" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="13" fill="#6b7682" font-weight="normal">high voltage in, power out</text>
+<line x1="1440" y1="345" x2="1440" y2="460" stroke="#1a1f26" stroke-width="3"/>
+<line x1="1417.0" y1="460" x2="1463.0" y2="460" stroke="#1a1f26" stroke-width="3"/>
+<line x1="1424.0" y1="470" x2="1456.0" y2="470" stroke="#1a1f26" stroke-width="3"/>
+<line x1="1431.0" y1="480" x2="1449.0" y2="480" stroke="#1a1f26" stroke-width="3"/>
+<text x="1440" y="512" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#6b7682" font-weight="normal">ground</text>
+<rect x="70" y="690" width="1480" height="130" rx="12" fill="#f5f7fa" stroke="#c5ced6"/>
+<text x="95" y="722" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="17" fill="#1a1f26" font-weight="bold">Reading the figure</text>
+<text x="95" y="752" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1a1f26" font-weight="normal">One or two stages is the builder's choice. The collector voltage is set just under the alpha energy divided by 2e, and is reset for each operating mode.</text>
+<text x="95" y="776" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1a1f26" font-weight="normal">The alphas are nearly all at one energy, so a single plate can recover most of it. Slower alphas that cannot reach the plate are turned back and are caught by the optional stage.</text>
+<text x="95" y="800" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#1a1f26" font-weight="normal">The plate runs at a steady DC voltage. It needs no coil and no tuned circuit, and it does not depend on how the alphas are bunched.</text>
+</svg>
