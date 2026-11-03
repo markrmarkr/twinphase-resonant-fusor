@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "TwinPhase Resonant Fusor"
+type: article
+authors:
+  - family-names: Roberts
+    given-names: Marcus
+version: "X"
+date-released: 2026-11-03
+doi: 10.5281/zenodo.23910091
+license: CC-BY-4.0
+repository-code: "https://github.com/markrmarkr/twinphase-resonant-fusor"

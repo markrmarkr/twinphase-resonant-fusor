@@ -1,5 +1,9 @@
 # TwinPhase Resonant Fusor
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23910091.svg)](https://doi.org/10.5281/zenodo.23910091)
+
+Archived on Zenodo: https://doi.org/10.5281/zenodo.23910091 (always the latest version). Please cite this DOI.
+
 A conceptual magnetic-electrostatic aneutronic fusion architecture in the Farnsworth IEC lineage, by Marcus Roberts.
 
 The paper sets out nested RF phase buckets for counter-streaming p-⁷Li ions, grounded-HTS confinement and electrostatic direct energy conversion. It claims no net power and states no gain figure. Open questions are tagged [OMR-xx] in the text and listed in Appendix A.

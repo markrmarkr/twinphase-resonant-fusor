@@ -12,6 +12,8 @@
 
 **Project repository:** https://github.com/markrmarkr/twinphase-resonant-fusor
 
+**Archive (Zenodo):** https://doi.org/10.5281/zenodo.23910091 (all versions)
+
 **Status:** This is a conceptual manuscript that sets out an architecture and the design constraints it must meet. Version X takes continuous counter-streaming of long ion streams as its base configuration, with electrostatic direct conversion of the alpha energy. It does not describe a demonstrated net-power device, and it states no gain figure. Quantitative performance claims that remain unclosed are tagged **[OMR-xx]** (Open: modelling required) and catalogued in Appendix A; those tags are retained in the published text wherever modelling is still open.
 
 ---
