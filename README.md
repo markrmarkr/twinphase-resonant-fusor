@@ -6,8 +6,8 @@ The paper sets out nested RF phase buckets for counter-streaming p-⁷Li ions, g
 
 ## Read the paper
 
-- paper/TwinPhase_Resonant_Fusor_Version_X_clean_2026-11-02.pdf (40 pages)
-- paper/TwinPhase_Resonant_Fusor_Version_X_clean_2026-11-02.md (same text, source)
+- paper/TwinPhase_Resonant_Fusor_Version_X_clean_2026-11-03.pdf (40 pages)
+- paper/TwinPhase_Resonant_Fusor_Version_X_clean_2026-11-03.md (same text, source)
 
 ## Contents
 

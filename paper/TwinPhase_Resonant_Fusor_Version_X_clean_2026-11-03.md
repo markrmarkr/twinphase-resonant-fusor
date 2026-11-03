@@ -4,7 +4,7 @@
 
 **Author:** Marcus Roberts BE (UNSW)
 
-**Document:** Version X (review draft), 2026-11-02
+**Document:** Version X, 2026-11-03
 
 *© 2026 Marcus Roberts. Any use or quotation must credit the author.*
 
@@ -467,7 +467,7 @@ One of the strengths of TwinPhase is the number of independent adjustable parame
 
 The starting stream shape is set at design time by the source extraction aperture (a slit for ribbons).
 
-**Ribbon phasing.** The axial field rotates a ribbon about the axis (Larmor rotation, at rate $\omega_L = qB/(2m)$ for ion charge $q$, mass $m$ and field $B$). If the rotation over one bounce period $T$ is a whole number of turns, each ribbon returns to the same orientation at every crossing. The two species rotate at rates in the ratio 7 to 3, so both land on whole turns together only after 7 proton turns (3 for $^7\mathrm{Li}$), which for a uniform field and $T = 248\,\mathrm{ns}$ needs about $3.7\,\mathrm{T}$ (about $1.85\,\mathrm{T}$ if half turns suffice, since a ribbon is symmetric under a half turn). The real field is concentrated at the plateau, so these are orientation figures only, and whether the phasing can be held is open.
+**Ribbon phasing.** The axial field rotates a ribbon about the axis (Larmor rotation, at rate $\omega_L = qB/(2m)$ for ion charge $q$, mass $m$ and field $B$). If the rotation over one bounce period $T$ is a whole number of turns, each ribbon returns to the same orientation at every crossing. The two species rotate at rates in the ratio 7 to 3, so both land on whole turns together only after 7 proton turns (3 for $^7\mathrm{Li}$), which for a uniform field and $T = 248\,\mathrm{ns}$ needs about $3.7\,\mathrm{T}$ (about $1.85\,\mathrm{T}$ if half turns suffice, since a ribbon is symmetric under a half turn). The real field is concentrated at the plateau, so these are orientation figures only, and whether the phasing can be held is open; for a localised coil the ratio is nearer 3 and depends on coil length (see "Flat ribbon streams" in the supplementary material in the repository).
 
 Several of these knobs can be run under extremum-seeking (dither) feedback on the collector current, a measure of the alpha yield: each knob is dithered at its own frequency, so the response to each can be separated and the loops locked together, for example the proton phase advance and the inner and outer lens biases, with the trim coil as a slow common-mode correction. Pickup electrodes reading each species' stream position would let refocusing be corrected directly.
 
